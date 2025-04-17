@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Cloner le dépôt') {
-            steps {
-                git 'https://github.com/lkassous/rooms-reservation-system.git'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
                 script {
@@ -20,7 +14,7 @@ pipeline {
 
         stage('Terminé') {
             steps {
-                echo "🎉 L'image Docker a été créée avec succès !"
+                echo "🎉 L\'image Docker a été créée avec succès !"
             }
         }
     }
