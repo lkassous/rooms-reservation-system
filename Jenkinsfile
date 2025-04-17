@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/lkassous/rooms-reservation-system.git'
+                // Checkout the 'main' branch explicitly (change 'main' to the branch you're using)
+                git branch: 'main', url: 'https://github.com/lkassous/rooms-reservation-system.git'
             }
         }
 
