@@ -2,26 +2,27 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repository') {
+        stage('Cloner le dépôt') {
             steps {
-                // Checkout the 'main' branch explicitly (change 'main' to the branch you're using)
-                git branch: 'main', url: 'https://github.com/lkassous/rooms-reservation-system.git'
+                git 'https://github.com/lkassous/rooms-reservation-system.git'
             }
         }
 
         stage('Build Docker Image') {
             steps {
                 script {
-                    sh 'echo "🛠️ Building Docker image..."'
-                    // Replace with actual Docker build later
+                    dir('user-service') {
+                        sh 'docker build -t user-service:latest .'
+                    }
                 }
             }
         }
 
-        stage('Done') {
+        stage('Terminé') {
             steps {
-                echo "🚀 CI Pipeline Finished"
+                echo "🎉 L'image Docker a été créée avec succès !"
             }
         }
     }
 }
+
