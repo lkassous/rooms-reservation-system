@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres-db
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: reservationsdb
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  user-service:
+    build: ./user-service
+    container_name: user-service
+    ports:
+      - "5001:5000"
+    environment:
+      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
+    depends_on:
+      - postgres
+
+  salle-service:
+    build: ./salle-service
+    container_name: salle-service
+    ports:
+      - "5002:5000"
+    environment:
+      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
+    depends_on:
+      - postgres
+
+  reservation-service:
+    build: ./reservation-service
+    container_name: reservation-service
+    ports:
+      - "5003:5000"
+    environment:
+      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:
