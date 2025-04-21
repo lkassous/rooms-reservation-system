@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reservation-service
-          image: lkassous/reservation-service:latest  # Remplace si nécessaire
+          image: lkassous/reservation-service:latest  # Update to your DockerHub username and repo
           ports:
             - containerPort: 5003
           env:
@@ -22,3 +22,31 @@ spec:
               value: postgresql://admin:admin@postgres:5432/reservationsdb
             - name: KAFKA_BOOTSTRAP_SERVERS
               value: kafka:9092
+          # Optional: Health check configuration
+          readinessProbe:
+            httpGet:
+              path: /reservations
+              port: 5003
+            initialDelaySeconds: 10
+            periodSeconds: 5
+          livenessProbe:
+            httpGet:
+              path: /reservations
+              port: 5003
+            initialDelaySeconds: 15
+            periodSeconds: 10
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: reservation-service
+spec:
+  selector:
+    app: reservation-service
+  ports:
+    - protocol: TCP
+      port: 5003
+      targetPort: 5003
+  type: ClusterIP  # You can change to LoadBalancer if you want it exposed externally
+
