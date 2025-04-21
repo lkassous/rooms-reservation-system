@@ -39,6 +39,16 @@ with app.app_context():
 
 producer = wait_for_kafka()
 
+# ✅ Route racine pour vérifier le bon fonctionnement
+@app.route('/')
+def index():
+    return "✅ User-service est en ligne !"
+
+# ✅ Route d'entrée utilisée par Ingress
+@app.route('/user')
+def user_root():
+    return "✅ Route /user OK depuis Ingress"
+
 @app.route('/salles', methods=['GET'])
 def get_salles():
     salles = Salle.query.all()

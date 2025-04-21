@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: user-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: user-service
+  template:
+    metadata:
+      labels:
+        app: user-service
+    spec:
+      containers:
+        - name: user-service
+          image: leith21/user-service:latest
+          ports:
+            - containerPort: 5000  # ✅ port exposé à l'intérieur du conteneur Flask
+          env:
+            - name: DATABASE_URL
+              value: postgresql://admin:admin@postgres-service:5432/reservationsdb
+            - name: KAFKA_BOOTSTRAP_SERVERS
+              value: kafka-service:9092
+
