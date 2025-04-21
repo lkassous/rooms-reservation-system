@@ -1,0 +1,17 @@
+replicaCount: 1
+
+image:
+  repository: leith21/salle-service
+  tag: latest
+  pullPolicy: Always
+
+service:
+  name: salle-service
+  type: ClusterIP
+  port: 5000
+
+env:
+  DATABASE_URL: postgresql://admin:admin@postgres:5432/reservationsdb
+  KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+
+resources: {}

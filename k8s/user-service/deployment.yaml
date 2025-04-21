@@ -19,10 +19,10 @@ spec:
             - containerPort: 5000  # Port exposed inside the container for Flask
           env:
             - name: DATABASE_URL
-              value: postgresql://admin:admin@postgres-service:5432/reservationsdb  # Corrected PostgreSQL service name
+              value: postgresql://admin:admin@postgres:5432/reservationsdb  # Corrected PostgreSQL service name
             - name: KAFKA_BOOTSTRAP_SERVERS
-              value: kafka-service:9092  # Corrected Kafka service name
-          # Optional: Health check configuration
+              value: kafka:9092  # Corrected Kafka service name
+          # Health checks
           readinessProbe:
             httpGet:
               path: /users
@@ -48,5 +48,5 @@ spec:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-  type: ClusterIP  # You can change to LoadBalancer if you want it exposed externally
+  type: ClusterIP  # Change to LoadBalancer if you want to expose externally
 

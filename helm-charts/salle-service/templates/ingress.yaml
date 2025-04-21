@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: salle-service-ingress
+  labels:
+    app: salle-service
+spec:
+  rules:
+    - host: salle-service.yourdomain.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: salle-service
+                port:
+                  number: 5000

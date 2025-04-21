@@ -14,15 +14,15 @@ spec:
     spec:
       containers:
         - name: salle-service
-          image: lkassous/salle-service:latest  # Update to your DockerHub username and repo
+          image: leith21/salle-service:latest  # Assurez-vous que l'image est correcte
           ports:
             - containerPort: 5002
           env:
             - name: DATABASE_URL
-              value: postgresql://admin:admin@postgres:5432/reservationsdb
+              value: postgresql://admin:admin@postgres:5432/reservationsdb  # PostgreSQL service
             - name: KAFKA_BOOTSTRAP_SERVERS
-              value: kafka:9092
-          # Optional: Health check configuration
+              value: kafka:9092  # Kafka service
+          # Health checks
           readinessProbe:
             httpGet:
               path: /salles
@@ -48,5 +48,5 @@ spec:
     - protocol: TCP
       port: 5002
       targetPort: 5002
-  type: ClusterIP  # You can change to LoadBalancer if you want it exposed externally
+  type: ClusterIP  # Change to LoadBalancer if you want to expose externally
 

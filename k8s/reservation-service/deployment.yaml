@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: reservation-service
-          image: lkassous/reservation-service:latest  # Update to your DockerHub username and repo
+          image: leith21/reservation-service:latest  # Update to your DockerHub username and repo
           ports:
             - containerPort: 5003
           env:
