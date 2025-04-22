@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backup-scripts
+data:
+  backup.sh: |
+    #!/bin/bash
+    BACKUP_DIR="/backups"
+    DB_CONTAINER_NAME="postgres-db"
+    DB_NAME="reservationsdb"
+    DB_USER="admin"
+    DB_PASSWORD="admin"
+    BACKUP_FILE="${DB_NAME}_$(date +\%Y\%m\%d\%H\%M\%S).sql"
+    mkdir -p $BACKUP_DIR
+    kubectl exec -it $DB_CONTAINER_NAME -- pg_dump -U $DB_USER $DB_NAME > $BACKUP_DIR/$BACKUP_FILE
+    if [ $? -eq 0 ]; then
+        echo "Sauvegarde réussie: $BACKUP_FILE"
+    else
+        echo "Échec de la sauvegarde"
+    fi
