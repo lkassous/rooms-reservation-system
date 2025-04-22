@@ -1,6 +1,45 @@
 version: '3.8'
 
 services:
+  user-service:
+    build: ./services/user-service  # Vérifiez que le chemin est correct
+    container_name: user-service
+    ports:
+      - "5001:5000"
+    environment:
+      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+    depends_on:
+      - postgres
+      - kafka
+    restart: always
+
+  salle-service:
+    build: ./services/salle-service  # Vérifiez que le chemin est correct
+    container_name: salle-service
+    ports:
+      - "5002:5000"
+    environment:
+      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+    depends_on:
+      - postgres
+      - kafka
+    restart: always
+
+  reservation-service:
+    build: ./services/reservation-service  # Vérifiez que le chemin est correct
+    container_name: reservation-service
+    ports:
+      - "5003:5000"
+    environment:
+      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+    depends_on:
+      - postgres
+      - kafka
+    restart: always
+
   postgres:
     image: postgres:15
     container_name: postgres-db
@@ -13,16 +52,6 @@ services:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-
-  zookeeper:
-    image: confluentinc/cp-zookeeper:latest
-    container_name: zookeeper
-    restart: always
-    environment:
-      ZOOKEEPER_CLIENT_PORT: 2181
-      ZOOKEEPER_TICK_TIME: 2000
-    ports:
-      - "2181:2181"
 
   kafka:
     image: confluentinc/cp-kafka:latest
@@ -40,38 +69,15 @@ services:
     depends_on:
       - zookeeper
 
-  user-service:
-    build: ./user-service
-    container_name: user-service
-    ports:
-      - "5001:5000"
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    container_name: zookeeper
+    restart: always
     environment:
-      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
-    depends_on:
-      - postgres
-      - kafka
-
-  salle-service:
-    build: ./salle-service
-    container_name: salle-service
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
     ports:
-      - "5002:5000"
-    environment:
-      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
-    depends_on:
-      - postgres
-      - kafka
-
-  reservation-service:
-    build: ./reservation-service
-    container_name: reservation-service
-    ports:
-      - "5003:5000"
-    environment:
-      - DATABASE_URL=postgresql://admin:admin@postgres:5432/reservationsdb
-    depends_on:
-      - postgres
-      - kafka
+      - "2181:2181"
 
 volumes:
   postgres_data:

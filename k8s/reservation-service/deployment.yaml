@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: reservation-service
 spec:
-  replicas: 1
+  replicas: 0  # Réduction du nombre de réplicas à 0 pour ne pas recréer les pods
   selector:
     matchLabels:
       app: reservation-service
@@ -48,5 +48,5 @@ spec:
     - protocol: TCP
       port: 5003
       targetPort: 5003
-  type: ClusterIP  # You can change to LoadBalancer if you want it exposed externally
+  type: LoadBalancer  # Change to LoadBalancer for external access
 

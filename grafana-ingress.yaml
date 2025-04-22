@@ -1,0 +1,17 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: grafana-ingress
+  namespace: default  # Si vous utilisez un autre namespace, ajustez cette valeur
+spec:
+  rules:
+    - host: grafana.local  # Remplacez par un domaine ou une IP publique si nécessaire
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: grafana  # Nom du service Grafana
+                port:
+                  number: 3000

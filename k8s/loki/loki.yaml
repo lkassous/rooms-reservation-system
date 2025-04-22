@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loki
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loki
+  template:
+    metadata:
+      labels:
+        app: loki
+    spec:
+      containers:
+        - name: loki
+          image: grafana/loki:2.4.1
+          ports:
+            - containerPort: 3100
+          volumeMounts:
+            - mountPath: /etc/loki/config
+              name: config
+              readOnly: true
+      volumes:
+        - name: config
+          configMap:
+            name: loki-config
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: loki
+spec:
+  ports:
+    - port: 3100
+  selector:
+    app: loki

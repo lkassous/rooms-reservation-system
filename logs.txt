@@ -1,0 +1,1066 @@
+
+==> Audit <==
+|------------|--------------------------------|----------|-------|---------|---------------------|---------------------|
+|  Command   |              Args              | Profile  | User  | Version |     Start Time      |      End Time       |
+|------------|--------------------------------|----------|-------|---------|---------------------|---------------------|
+| service    | user-service --url             | minikube | leith | v1.35.0 | 19 Apr 25 15:16 CET | 19 Apr 25 15:16 CET |
+| service    | user-service --url             | minikube | leith | v1.35.0 | 19 Apr 25 15:20 CET |                     |
+| docker-env |                                | minikube | leith | v1.35.0 | 19 Apr 25 15:22 CET | 19 Apr 25 15:22 CET |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:11 CET |                     |
+| stop       |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:15 CET | 19 Apr 25 22:15 CET |
+| start      |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:15 CET | 19 Apr 25 22:16 CET |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:16 CET |                     |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:19 CET | 19 Apr 25 22:19 CET |
+| delete     |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:22 CET | 19 Apr 25 22:22 CET |
+| start      |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:22 CET | 19 Apr 25 22:23 CET |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:24 CET | 19 Apr 25 22:27 CET |
+| stop       |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:29 CET | 19 Apr 25 22:30 CET |
+| delete     |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:30 CET | 19 Apr 25 22:30 CET |
+| start      |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:30 CET | 19 Apr 25 22:30 CET |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:31 CET | 19 Apr 25 22:35 CET |
+| delete     |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:36 CET | 19 Apr 25 22:37 CET |
+| start      | --force                        | minikube | leith | v1.35.0 | 19 Apr 25 22:37 CET | 19 Apr 25 22:37 CET |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:37 CET | 19 Apr 25 22:40 CET |
+| delete     |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:42 CET | 19 Apr 25 22:42 CET |
+| start      | --force --memory=4096 --cpus=2 | minikube | leith | v1.35.0 | 19 Apr 25 22:42 CET |                     |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:42 CET |                     |
+| start      | --force --memory=2200mb        | minikube | leith | v1.35.0 | 19 Apr 25 22:44 CET | 19 Apr 25 22:44 CET |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:45 CET | 19 Apr 25 22:48 CET |
+| addons     | enable ingress                 | minikube | leith | v1.35.0 | 19 Apr 25 22:49 CET | 19 Apr 25 22:49 CET |
+| tunnel     |                                | minikube | leith | v1.35.0 | 19 Apr 25 22:51 CET | 19 Apr 25 23:03 CET |
+| start      |                                | minikube | leith | v1.35.0 | 19 Apr 25 23:04 CET | 19 Apr 25 23:05 CET |
+| start      |                                | minikube | leith | v1.35.0 | 19 Apr 25 23:06 CET | 19 Apr 25 23:06 CET |
+| tunnel     |                                | minikube | root  | v1.35.0 | 19 Apr 25 23:08 CET |                     |
+| tunnel     |                                | minikube | root  | v1.35.0 | 19 Apr 25 23:11 CET |                     |
+| tunnel     |                                | minikube | root  | v1.35.0 | 19 Apr 25 23:13 CET | 19 Apr 25 23:40 CET |
+| start      |                                | minikube | leith | v1.35.0 | 20 Apr 25 00:15 CET |                     |
+| start      |                                | minikube | leith | v1.35.0 | 20 Apr 25 00:40 CET |                     |
+| delete     |                                | minikube | leith | v1.35.0 | 20 Apr 25 00:47 CET | 20 Apr 25 00:47 CET |
+| start      |                                | minikube | leith | v1.35.0 | 20 Apr 25 00:47 CET | 20 Apr 25 00:48 CET |
+| image      | load                           | minikube | leith | v1.35.0 | 20 Apr 25 00:54 CET |                     |
+|            | leith21/user-service:latest    |          |       |         |                     |                     |
+| image      | load                           | minikube | leith | v1.35.0 | 20 Apr 25 00:58 CET |                     |
+|            | leith21/user-service:latest    |          |       |         |                     |                     |
+| ssh        |                                | minikube | leith | v1.35.0 | 20 Apr 25 01:00 CET |                     |
+| image      | load                           | minikube | leith | v1.35.0 | 20 Apr 25 01:01 CET |                     |
+|            | leith21/user-service:latest    |          |       |         |                     |                     |
+| start      |                                | minikube | leith | v1.35.0 | 20 Apr 25 14:52 CET | 20 Apr 25 14:52 CET |
+| start      |                                | minikube | leith | v1.35.0 | 21 Apr 25 21:22 CET | 21 Apr 25 21:22 CET |
+| start      |                                | minikube | leith | v1.35.0 | 21 Apr 25 23:50 CET | 21 Apr 25 23:51 CET |
+| ip         |                                | minikube | leith | v1.35.0 | 21 Apr 25 23:51 CET | 21 Apr 25 23:51 CET |
+| start      |                                | minikube | leith | v1.35.0 | 22 Apr 25 11:18 CET | 22 Apr 25 11:18 CET |
+| start      |                                | minikube | leith | v1.35.0 | 22 Apr 25 11:19 CET |                     |
+| service    | user-service --url             | minikube | leith | v1.35.0 | 22 Apr 25 14:45 CET | 22 Apr 25 14:45 CET |
+| service    | salle-service --url            | minikube | leith | v1.35.0 | 22 Apr 25 14:45 CET | 22 Apr 25 14:45 CET |
+| service    | reservation-service --url      | minikube | leith | v1.35.0 | 22 Apr 25 14:45 CET | 22 Apr 25 14:45 CET |
+| service    | user-service --url             | minikube | leith | v1.35.0 | 22 Apr 25 15:03 CET | 22 Apr 25 15:03 CET |
+| service    | salle-service --url            | minikube | leith | v1.35.0 | 22 Apr 25 15:03 CET | 22 Apr 25 15:03 CET |
+| service    | reservation-service --url      | minikube | leith | v1.35.0 | 22 Apr 25 15:03 CET | 22 Apr 25 15:03 CET |
+| service    | user-service --url             | minikube | leith | v1.35.0 | 22 Apr 25 15:14 CET |                     |
+| service    | user-service --url             | minikube | leith | v1.35.0 | 22 Apr 25 15:18 CET |                     |
+| service    | salle-service --url            | minikube | leith | v1.35.0 | 22 Apr 25 15:18 CET |                     |
+| service    | reservation-service --url      | minikube | leith | v1.35.0 | 22 Apr 25 15:18 CET |                     |
+| service    | salle-service --url            | minikube | leith | v1.35.0 | 22 Apr 25 15:37 CET |                     |
+| service    | user-service --url             | minikube | leith | v1.35.0 | 22 Apr 25 15:47 CET |                     |
+| service    | salle-service --url            | minikube | leith | v1.35.0 | 22 Apr 25 15:47 CET |                     |
+| service    | reservation-service --url      | minikube | leith | v1.35.0 | 22 Apr 25 15:47 CET |                     |
+| service    | salle-service --url            | minikube | leith | v1.35.0 | 22 Apr 25 15:48 CET |                     |
+| service    | reservation-service --url      | minikube | leith | v1.35.0 | 22 Apr 25 15:48 CET |                     |
+|------------|--------------------------------|----------|-------|---------|---------------------|---------------------|
+
+
+==> Dernier démarrage <==
+Log file created at: 2025/04/22 11:19:22
+Running on machine: leith-VirtualBox
+Binary: Built with gc go1.23.4 for linux/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0422 11:19:22.438211   10165 out.go:345] Setting OutFile to fd 1 ...
+I0422 11:19:22.439701   10165 out.go:397] isatty.IsTerminal(1) = true
+I0422 11:19:22.439715   10165 out.go:358] Setting ErrFile to fd 2...
+I0422 11:19:22.439920   10165 out.go:397] isatty.IsTerminal(2) = true
+I0422 11:19:22.440186   10165 root.go:338] Updating PATH: /home/leith/.minikube/bin
+I0422 11:19:22.442329   10165 out.go:352] Setting JSON to false
+I0422 11:19:22.447503   10165 start.go:129] hostinfo: {"hostname":"leith-VirtualBox","uptime":1920,"bootTime":1745315243,"procs":309,"os":"linux","platform":"ubuntu","platformFamily":"debian","platformVersion":"24.04","kernelVersion":"6.11.0-24-generic","kernelArch":"x86_64","virtualizationSystem":"vbox","virtualizationRole":"guest","hostId":"7aa204ec-7564-403e-93cf-602fdf81f25e"}
+I0422 11:19:22.448559   10165 start.go:139] virtualization: vbox guest
+I0422 11:19:22.456011   10165 out.go:177] 😄  minikube v1.35.0 sur Ubuntu 24.04 (vbox/amd64)
+I0422 11:19:22.466323   10165 notify.go:220] Checking for updates...
+I0422 11:19:22.466792   10165 config.go:182] Loaded profile config "minikube": Driver=docker, ContainerRuntime=docker, KubernetesVersion=v1.32.0
+I0422 11:19:22.471504   10165 driver.go:394] Setting default libvirt URI to qemu:///system
+I0422 11:19:23.809161   10165 docker.go:123] docker version: linux-28.1.1:Docker Engine - Community
+I0422 11:19:23.809273   10165 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0422 11:19:24.776581   10165 info.go:266] docker info: {ID:3766e111-d768-4f24-bea9-3486e32839e6 Containers:4 ContainersRunning:2 ContainersPaused:0 ContainersStopped:2 Images:8 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:false BridgeNfIP6Tables:false Debug:false NFd:49 OomKillDisable:false NGoroutines:63 SystemTime:2025-04-22 11:19:24.706594157 +0100 CET LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.11.0-24-generic OperatingSystem:Ubuntu 24.04.2 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[::1/128 127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:2 MemTotal:4221177856 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:leith-VirtualBox Labels:[] ExperimentalBuild:false ServerVersion:28.1.1 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID:05044ec0a9a75232cad458027ca83437aae3f4da Expected:} RuncCommit:{ID:v1.2.5-0-g59923ef Expected:} InitCommit:{ID:de40ad0 Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[map[Name:buildx Path:/usr/libexec/docker/cli-plugins/docker-buildx SchemaVersion:0.1.0 ShortDescription:Docker Buildx Vendor:Docker Inc. Version:v0.23.0] map[Name:compose Path:/usr/libexec/docker/cli-plugins/docker-compose SchemaVersion:0.1.0 ShortDescription:Docker Compose Vendor:Docker Inc. Version:v2.35.1]] Warnings:<nil>}}
+I0422 11:19:24.776731   10165 docker.go:318] overlay module found
+I0422 11:19:24.785777   10165 out.go:177] ✨  Utilisation du pilote docker basé sur le profil existant
+I0422 11:19:24.792801   10165 start.go:297] selected driver: docker
+I0422 11:19:24.792816   10165 start.go:901] validating driver "docker" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 Memory:2200 CPUs:2 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.32.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.49.2 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/leith:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0422 11:19:24.792933   10165 start.go:912] status for docker: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I0422 11:19:24.793084   10165 cli_runner.go:164] Run: docker system info --format "{{json .}}"
+I0422 11:19:25.103148   10165 info.go:266] docker info: {ID:3766e111-d768-4f24-bea9-3486e32839e6 Containers:4 ContainersRunning:2 ContainersPaused:0 ContainersStopped:2 Images:8 Driver:overlay2 DriverStatus:[[Backing Filesystem extfs] [Supports d_type true] [Using metacopy false] [Native Overlay Diff true] [userxattr false]] SystemStatus:<nil> Plugins:{Volume:[local] Network:[bridge host ipvlan macvlan null overlay] Authorization:<nil> Log:[awslogs fluentd gcplogs gelf journald json-file local splunk syslog]} MemoryLimit:true SwapLimit:true KernelMemory:false KernelMemoryTCP:false CPUCfsPeriod:true CPUCfsQuota:true CPUShares:true CPUSet:true PidsLimit:true IPv4Forwarding:true BridgeNfIptables:false BridgeNfIP6Tables:false Debug:false NFd:49 OomKillDisable:false NGoroutines:63 SystemTime:2025-04-22 11:19:25.054848672 +0100 CET LoggingDriver:json-file CgroupDriver:systemd NEventsListener:0 KernelVersion:6.11.0-24-generic OperatingSystem:Ubuntu 24.04.2 LTS OSType:linux Architecture:x86_64 IndexServerAddress:https://index.docker.io/v1/ RegistryConfig:{AllowNondistributableArtifactsCIDRs:[] AllowNondistributableArtifactsHostnames:[] InsecureRegistryCIDRs:[::1/128 127.0.0.0/8] IndexConfigs:{DockerIo:{Name:docker.io Mirrors:[] Secure:true Official:true}} Mirrors:[]} NCPU:2 MemTotal:4221177856 GenericResources:<nil> DockerRootDir:/var/lib/docker HTTPProxy: HTTPSProxy: NoProxy: Name:leith-VirtualBox Labels:[] ExperimentalBuild:false ServerVersion:28.1.1 ClusterStore: ClusterAdvertise: Runtimes:{Runc:{Path:runc}} DefaultRuntime:runc Swarm:{NodeID: NodeAddr: LocalNodeState:inactive ControlAvailable:false Error: RemoteManagers:<nil>} LiveRestoreEnabled:false Isolation: InitBinary:docker-init ContainerdCommit:{ID:05044ec0a9a75232cad458027ca83437aae3f4da Expected:} RuncCommit:{ID:v1.2.5-0-g59923ef Expected:} InitCommit:{ID:de40ad0 Expected:} SecurityOptions:[name=apparmor name=seccomp,profile=builtin name=cgroupns] ProductLicense: Warnings:<nil> ServerErrors:[] ClientInfo:{Debug:false Plugins:[map[Name:buildx Path:/usr/libexec/docker/cli-plugins/docker-buildx SchemaVersion:0.1.0 ShortDescription:Docker Buildx Vendor:Docker Inc. Version:v0.23.0] map[Name:compose Path:/usr/libexec/docker/cli-plugins/docker-compose SchemaVersion:0.1.0 ShortDescription:Docker Compose Vendor:Docker Inc. Version:v2.35.1]] Warnings:<nil>}}
+I0422 11:19:25.108247   10165 cni.go:84] Creating CNI manager for ""
+I0422 11:19:25.111628   10165 cni.go:158] "docker" driver + "docker" container runtime found on kubernetes v1.24+, recommending bridge
+I0422 11:19:25.111848   10165 start.go:340] cluster config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO: KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 Memory:2200 CPUs:2 DiskSize:20000 Driver:docker HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:8443 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.32.0 ClusterName:minikube Namespace:default APIServerHAVIP: APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI:} Nodes:[{Name: IP:192.168.49.2 Port:8443 KubernetesVersion:v1.32.0 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:/home/leith:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 GPUs: AutoPauseInterval:1m0s}
+I0422 11:19:25.118984   10165 out.go:177] 👍  Démarrage du nœud "minikube" primary control-plane dans le cluster "minikube"
+I0422 11:19:25.124541   10165 cache.go:121] Beginning downloading kic base image for docker with docker
+I0422 11:19:25.131725   10165 out.go:177] 🚜  Extraction de l'image de base v0.0.46...
+I0422 11:19:25.136120   10165 preload.go:131] Checking if preload exists for k8s version v1.32.0 and runtime docker
+I0422 11:19:25.136289   10165 preload.go:146] Found local preload: /home/leith/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.32.0-docker-overlay2-amd64.tar.lz4
+I0422 11:19:25.136294   10165 image.go:81] Checking for gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 in local docker daemon
+I0422 11:19:25.136316   10165 cache.go:56] Caching tarball of preloaded images
+I0422 11:19:25.136523   10165 preload.go:172] Found /home/leith/.minikube/cache/preloaded-tarball/preloaded-images-k8s-v18-v1.32.0-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I0422 11:19:25.136537   10165 cache.go:59] Finished verifying existence of preloaded tar for v1.32.0 on docker
+I0422 11:19:25.136718   10165 profile.go:143] Saving config to /home/leith/.minikube/profiles/minikube/config.json ...
+I0422 11:19:25.284972   10165 image.go:100] Found gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 in local docker daemon, skipping pull
+I0422 11:19:25.285050   10165 cache.go:145] gcr.io/k8s-minikube/kicbase:v0.0.46@sha256:fd2d445ddcc33ebc5c6b68a17e6219ea207ce63c005095ea1525296da2d1a279 exists in daemon, skipping load
+I0422 11:19:25.285251   10165 cache.go:227] Successfully downloaded all kic artifacts
+I0422 11:19:25.286244   10165 start.go:360] acquireMachinesLock for minikube: {Name:mkedb425dce761e411731fb07b9e8af9f552c02d Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I0422 11:19:25.286331   10165 start.go:364] duration metric: took 54.214µs to acquireMachinesLock for "minikube"
+I0422 11:19:25.286353   10165 start.go:96] Skipping create...Using existing machine configuration
+I0422 11:19:25.286366   10165 fix.go:54] fixHost starting: 
+I0422 11:19:25.286765   10165 cli_runner.go:164] Run: docker container inspect minikube --format={{.State.Status}}
+I0422 11:19:25.474200   10165 fix.go:112] recreateIfNeeded on minikube: state=Running err=<nil>
+W0422 11:19:25.474224   10165 fix.go:138] unexpected machine state, will restart: <nil>
+I0422 11:19:25.486153   10165 out.go:177] 🏃  Mise à jour du container docker en marche "minikube" ...
+I0422 11:19:25.493532   10165 machine.go:93] provisionDockerMachine start ...
+I0422 11:19:25.494422   10165 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0422 11:19:25.628562   10165 main.go:141] libmachine: Using SSH client type: native
+I0422 11:19:25.641357   10165 main.go:141] libmachine: &{{{<nil> 0 [] [] []} docker [0x8641c0] 0x866ea0 <nil>  [] 0s} 127.0.0.1 32768 <nil> <nil>}
+I0422 11:19:25.641378   10165 main.go:141] libmachine: About to run SSH command:
+hostname
+I0422 11:19:25.984399   10165 main.go:141] libmachine: SSH cmd err, output: <nil>: minikube
+
+I0422 11:19:25.984436   10165 ubuntu.go:169] provisioning hostname "minikube"
+I0422 11:19:25.984520   10165 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0422 11:19:26.088519   10165 main.go:141] libmachine: Using SSH client type: native
+I0422 11:19:26.088836   10165 main.go:141] libmachine: &{{{<nil> 0 [] [] []} docker [0x8641c0] 0x866ea0 <nil>  [] 0s} 127.0.0.1 32768 <nil> <nil>}
+I0422 11:19:26.088863   10165 main.go:141] libmachine: About to run SSH command:
+sudo hostname minikube && echo "minikube" | sudo tee /etc/hostname
+I0422 11:19:26.433325   10165 main.go:141] libmachine: SSH cmd err, output: <nil>: minikube
+
+I0422 11:19:26.433409   10165 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+I0422 11:19:26.501220   10165 main.go:141] libmachine: Using SSH client type: native
+I0422 11:19:26.501486   10165 main.go:141] libmachine: &{{{<nil> 0 [] [] []} docker [0x8641c0] 0x866ea0 <nil>  [] 0s} 127.0.0.1 32768 <nil> <nil>}
+I0422 11:19:26.501505   10165 main.go:141] libmachine: About to run SSH command:
+
+		if ! grep -xq '.*\sminikube' /etc/hosts; then
+			if grep -xq '127.0.1.1\s.*' /etc/hosts; then
+				sudo sed -i 's/^127.0.1.1\s.*/127.0.1.1 minikube/g' /etc/hosts;
+			else 
+				echo '127.0.1.1 minikube' | sudo tee -a /etc/hosts; 
+			fi
+		fi
+I0422 11:19:26.838926   10165 main.go:141] libmachine: SSH cmd err, output: <nil>: 
+I0422 11:19:26.838944   10165 ubuntu.go:175] set auth options {CertDir:/home/leith/.minikube CaCertPath:/home/leith/.minikube/certs/ca.pem CaPrivateKeyPath:/home/leith/.minikube/certs/ca-key.pem CaCertRemotePath:/etc/docker/ca.pem ServerCertPath:/home/leith/.minikube/machines/server.pem ServerKeyPath:/home/leith/.minikube/machines/server-key.pem ClientKeyPath:/home/leith/.minikube/certs/key.pem ServerCertRemotePath:/etc/docker/server.pem ServerKeyRemotePath:/etc/docker/server-key.pem ClientCertPath:/home/leith/.minikube/certs/cert.pem ServerCertSANs:[] StorePath:/home/leith/.minikube}
+I0422 11:19:26.838958   10165 ubuntu.go:177] setting up certificates
+I0422 11:19:26.838966   10165 provision.go:84] configureAuth start
+I0422 11:19:26.839038   10165 cli_runner.go:164] Run: docker container inspect -f "{{range .NetworkSettings.Networks}}{{.IPAddress}},{{.GlobalIPv6Address}}{{end}}" minikube
+I0422 11:19:26.898539   10165 provision.go:143] copyHostCerts
+I0422 11:19:26.901580   10165 exec_runner.go:144] found /home/leith/.minikube/ca.pem, removing ...
+I0422 11:19:26.901618   10165 exec_runner.go:203] rm: /home/leith/.minikube/ca.pem
+I0422 11:19:26.910093   10165 exec_runner.go:151] cp: /home/leith/.minikube/certs/ca.pem --> /home/leith/.minikube/ca.pem (1074 bytes)
+I0422 11:19:26.913522   10165 exec_runner.go:144] found /home/leith/.minikube/cert.pem, removing ...
+I0422 11:19:26.913540   10165 exec_runner.go:203] rm: /home/leith/.minikube/cert.pem
+I0422 11:19:26.913703   10165 exec_runner.go:151] cp: /home/leith/.minikube/certs/cert.pem --> /home/leith/.minikube/cert.pem (1119 bytes)
+I0422 11:19:26.914491   10165 exec_runner.go:144] found /home/leith/.minikube/key.pem, removing ...
+I0422 11:19:26.914503   10165 exec_runner.go:203] rm: /home/leith/.minikube/key.pem
+I0422 11:19:26.914567   10165 exec_runner.go:151] cp: /home/leith/.minikube/certs/key.pem --> /home/leith/.minikube/key.pem (1679 bytes)
+I0422 11:19:26.917289   10165 provision.go:117] generating server cert: /home/leith/.minikube/machines/server.pem ca-key=/home/leith/.minikube/certs/ca.pem private-key=/home/leith/.minikube/certs/ca-key.pem org=leith.minikube san=[127.0.0.1 192.168.49.2 localhost minikube]
+I0422 11:19:27.435282   10165 provision.go:177] copyRemoteCerts
+I0422 11:19:27.437379   10165 ssh_runner.go:195] Run: sudo mkdir -p /etc/docker /etc/docker /etc/docker
+I0422 11:19:27.437429   10165 cli_runner.go:164] Run: docker container inspect -f "'{{(index (index .NetworkSettings.Ports "22/tcp") 0).HostPort}}'" minikube
+
+
+==> Docker <==
+Apr 22 14:08:16 minikube dockerd[943]: time="2025-04-22T14:08:16.275000640Z" level=info msg="ignoring event" container=0caabaea9a481601ab8bbd23fe11922916a00a4e92307ad465245abf05f3dea9 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:08:25 minikube dockerd[943]: time="2025-04-22T14:08:25.661124877Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=8f80582aa740581513c9886dd441292545a98851c99d198e8f1a5d10fffc5f6d
+Apr 22 14:08:25 minikube dockerd[943]: time="2025-04-22T14:08:25.749835837Z" level=info msg="ignoring event" container=8f80582aa740581513c9886dd441292545a98851c99d198e8f1a5d10fffc5f6d module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:08:27 minikube cri-dockerd[1256]: time="2025-04-22T14:08:27Z" level=info msg="Stop pulling image leith21/salle-service:latest: Status: Image is up to date for leith21/salle-service:latest"
+Apr 22 14:08:59 minikube cri-dockerd[1256]: time="2025-04-22T14:08:59Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:09:00 minikube dockerd[943]: time="2025-04-22T14:09:00.022018444Z" level=info msg="ignoring event" container=0680b8aff319f9f50e984c777d4420151e9552f039e2e0c8bed2540f7a1a8fa8 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:09:04 minikube dockerd[943]: time="2025-04-22T14:09:04.258001826Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=e8d1e5e1b9668423469269205c3299178767ee3036577db6da310ea911ca51aa
+Apr 22 14:09:04 minikube dockerd[943]: time="2025-04-22T14:09:04.339165021Z" level=info msg="ignoring event" container=e8d1e5e1b9668423469269205c3299178767ee3036577db6da310ea911ca51aa module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:09:07 minikube cri-dockerd[1256]: time="2025-04-22T14:09:07Z" level=info msg="Stop pulling image leith21/reservation-service:latest: Status: Image is up to date for leith21/reservation-service:latest"
+Apr 22 14:09:08 minikube cri-dockerd[1256]: time="2025-04-22T14:09:08Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:09:09 minikube dockerd[943]: time="2025-04-22T14:09:09.839838007Z" level=info msg="ignoring event" container=6b499b92ee39005169e5666820021138cbaeed5addc50a50fbf6680224de9d1c module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:09:18 minikube cri-dockerd[1256]: time="2025-04-22T14:09:18Z" level=error msg="error getting RW layer size for container ID '0caabaea9a481601ab8bbd23fe11922916a00a4e92307ad465245abf05f3dea9': Error response from daemon: No such container: 0caabaea9a481601ab8bbd23fe11922916a00a4e92307ad465245abf05f3dea9"
+Apr 22 14:09:18 minikube cri-dockerd[1256]: time="2025-04-22T14:09:18Z" level=error msg="Set backoffDuration to : 1m0s for container ID '0caabaea9a481601ab8bbd23fe11922916a00a4e92307ad465245abf05f3dea9'"
+Apr 22 14:09:20 minikube dockerd[943]: time="2025-04-22T14:09:20.119466838Z" level=info msg="ignoring event" container=eca95d1e3c4ba041ad7e3031cd3d67c79f1293fc6a61293853cb279ff2d7c681 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:09:20 minikube dockerd[943]: time="2025-04-22T14:09:20.151448547Z" level=info msg="ignoring event" container=557ea6a882d8925826c3b91a78f4f14b77e3de5c5ed7835145c5e275835ab382 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:09:35 minikube dockerd[943]: time="2025-04-22T14:09:35.657736220Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=b36a5ffaf840303ce0b7657ce47b8e28e66b085f1017f3086401423d94042229
+Apr 22 14:09:35 minikube dockerd[943]: time="2025-04-22T14:09:35.713682430Z" level=info msg="ignoring event" container=b36a5ffaf840303ce0b7657ce47b8e28e66b085f1017f3086401423d94042229 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:09:37 minikube cri-dockerd[1256]: time="2025-04-22T14:09:37Z" level=info msg="Stop pulling image leith21/salle-service:latest: Status: Image is up to date for leith21/salle-service:latest"
+Apr 22 14:10:04 minikube dockerd[943]: time="2025-04-22T14:10:04.024413112Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=019091454aee6c65ada6c7c3abe09aad18c5e64124b15671a2343ba89f6d0ed6
+Apr 22 14:10:04 minikube dockerd[943]: time="2025-04-22T14:10:04.083211232Z" level=info msg="ignoring event" container=019091454aee6c65ada6c7c3abe09aad18c5e64124b15671a2343ba89f6d0ed6 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:10:04 minikube dockerd[943]: time="2025-04-22T14:10:04.275017008Z" level=info msg="ignoring event" container=d849865761730228012ed0b6eedbfda87d22535dda02bc7afd7c91bb6de9938d module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:10:08 minikube dockerd[943]: time="2025-04-22T14:10:08.617766849Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=eac98c957c7d6233bf18d5d91d05c7cbaa793aab55f1c6fb56b08fcd06083bb9
+Apr 22 14:10:08 minikube dockerd[943]: time="2025-04-22T14:10:08.688521675Z" level=info msg="ignoring event" container=eac98c957c7d6233bf18d5d91d05c7cbaa793aab55f1c6fb56b08fcd06083bb9 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:10:08 minikube dockerd[943]: time="2025-04-22T14:10:08.883882568Z" level=info msg="ignoring event" container=5bd54fca20fcbfb0bbeab660d310419392486666d80b0912d9739e0faee2a0fa module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:10:09 minikube cri-dockerd[1256]: time="2025-04-22T14:10:09Z" level=error msg="error getting RW layer size for container ID '019091454aee6c65ada6c7c3abe09aad18c5e64124b15671a2343ba89f6d0ed6': Error response from daemon: No such container: 019091454aee6c65ada6c7c3abe09aad18c5e64124b15671a2343ba89f6d0ed6"
+Apr 22 14:10:09 minikube cri-dockerd[1256]: time="2025-04-22T14:10:09Z" level=error msg="Set backoffDuration to : 1m0s for container ID '019091454aee6c65ada6c7c3abe09aad18c5e64124b15671a2343ba89f6d0ed6'"
+Apr 22 14:27:47 minikube cri-dockerd[1256]: time="2025-04-22T14:27:47Z" level=info msg="Will attempt to re-write config file /var/lib/docker/containers/f8100952422d16038c9deef0fd3da92dfe5e585cc056bbc31e4f24fda260358a/resolv.conf as [nameserver 10.96.0.10 search default.svc.cluster.local svc.cluster.local cluster.local options ndots:5]"
+Apr 22 14:27:49 minikube cri-dockerd[1256]: time="2025-04-22T14:27:49Z" level=info msg="Stop pulling image leith21/reservation-service:latest: Status: Image is up to date for leith21/reservation-service:latest"
+Apr 22 14:28:16 minikube dockerd[943]: time="2025-04-22T14:28:16.392588947Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=4b35df1647a1db787b0d3f52459c4d546074d79dd1f8d042cc00fcbdd145f03f
+Apr 22 14:28:16 minikube dockerd[943]: time="2025-04-22T14:28:16.465768491Z" level=info msg="ignoring event" container=4b35df1647a1db787b0d3f52459c4d546074d79dd1f8d042cc00fcbdd145f03f module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:28:16 minikube dockerd[943]: time="2025-04-22T14:28:16.727043237Z" level=info msg="ignoring event" container=e37ced6cb3c2ec1cf334bebeb85d82c6f227e9b25a0b9f724415df07988a881f module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:28:18 minikube cri-dockerd[1256]: time="2025-04-22T14:28:18Z" level=info msg="Will attempt to re-write config file /var/lib/docker/containers/5ce5c7fe175f8fbc81e9e4c35a7a2f425bb4810524b2b08b3974dc742dcc690e/resolv.conf as [nameserver 10.96.0.10 search default.svc.cluster.local svc.cluster.local cluster.local options ndots:5]"
+Apr 22 14:28:19 minikube cri-dockerd[1256]: time="2025-04-22T14:28:19Z" level=info msg="Stop pulling image leith21/salle-service:latest: Status: Image is up to date for leith21/salle-service:latest"
+Apr 22 14:28:47 minikube dockerd[943]: time="2025-04-22T14:28:47.620822065Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=5c7296c7634bf0861efae40220445217d61b172082978551efe099defa56d53e
+Apr 22 14:28:47 minikube dockerd[943]: time="2025-04-22T14:28:47.681080850Z" level=info msg="ignoring event" container=5c7296c7634bf0861efae40220445217d61b172082978551efe099defa56d53e module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:28:47 minikube dockerd[943]: time="2025-04-22T14:28:47.867573407Z" level=info msg="ignoring event" container=c902f7cedfc9a79ed94a872395b4ab32ea76af6e718d1ea860f054351e313f10 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:28:49 minikube cri-dockerd[1256]: time="2025-04-22T14:28:49Z" level=info msg="Will attempt to re-write config file /var/lib/docker/containers/8c422810b74dc01e58b5b10c470701e90c9d23cf371467ce516b0a73fd845ea7/resolv.conf as [nameserver 10.96.0.10 search default.svc.cluster.local svc.cluster.local cluster.local options ndots:5]"
+Apr 22 14:28:58 minikube cri-dockerd[1256]: time="2025-04-22T14:28:58Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:28:58 minikube dockerd[943]: time="2025-04-22T14:28:58.833493333Z" level=info msg="ignoring event" container=31e1e7f51e7b51778629ddcac0d7d9ae00a3b0243cf275cccf6ed5527f0e2903 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:29:00 minikube cri-dockerd[1256]: time="2025-04-22T14:29:00Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:29:00 minikube dockerd[943]: time="2025-04-22T14:29:00.898713405Z" level=info msg="ignoring event" container=404abff28d8be1e6fcac5f2edcd02fefc9453cd951cafc5d25b38c137cf0dc8a module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:29:17 minikube cri-dockerd[1256]: time="2025-04-22T14:29:17Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:29:17 minikube dockerd[943]: time="2025-04-22T14:29:17.484158769Z" level=info msg="ignoring event" container=d160ea6b57de445f365ee3adecc5e72062d550a596e1389d57a8bc2043eecf46 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:29:19 minikube dockerd[943]: time="2025-04-22T14:29:19.223051350Z" level=info msg="Container failed to exit within 30s of signal 15 - using the force" container=6d2042c26d5bfb6e58c5223bf94706bea01618c6a044108849de365d66982b66
+Apr 22 14:29:19 minikube dockerd[943]: time="2025-04-22T14:29:19.286533501Z" level=info msg="ignoring event" container=6d2042c26d5bfb6e58c5223bf94706bea01618c6a044108849de365d66982b66 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:29:19 minikube dockerd[943]: time="2025-04-22T14:29:19.497676584Z" level=info msg="ignoring event" container=9b378f5216d65098b1b36e36ca69f09eb69a006faad9ed4bb846470ef1d93aa3 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:29:48 minikube cri-dockerd[1256]: time="2025-04-22T14:29:48Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:29:48 minikube dockerd[943]: time="2025-04-22T14:29:48.578816627Z" level=info msg="ignoring event" container=86e569d7f868d9c7115b1f321150e2ac3c8a62a441b099d462e42c71dba04e8b module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:30:34 minikube cri-dockerd[1256]: time="2025-04-22T14:30:34Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:30:34 minikube dockerd[943]: time="2025-04-22T14:30:34.381139556Z" level=info msg="ignoring event" container=69dbe3079380c664230dd485d8fa2ddc847b87d12e902bf1944df79c26ac9645 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:32:05 minikube cri-dockerd[1256]: time="2025-04-22T14:32:05Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:32:05 minikube dockerd[943]: time="2025-04-22T14:32:05.397533118Z" level=info msg="ignoring event" container=6cd31dea9f9bf31409c3a3af13139021d8e038c374c1d6d8e1ab6978478c5074 module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:34:47 minikube cri-dockerd[1256]: time="2025-04-22T14:34:47Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:34:47 minikube dockerd[943]: time="2025-04-22T14:34:47.587016369Z" level=info msg="ignoring event" container=e50343896b8a286276876b53205d616ce5917d21507c95713cee5819a00b326a module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:39:56 minikube cri-dockerd[1256]: time="2025-04-22T14:39:56Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:39:56 minikube dockerd[943]: time="2025-04-22T14:39:56.530877019Z" level=info msg="ignoring event" container=2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:44:59 minikube cri-dockerd[1256]: time="2025-04-22T14:44:59Z" level=info msg="Stop pulling image leith21/user-service:latest: Status: Image is up to date for leith21/user-service:latest"
+Apr 22 14:45:00 minikube dockerd[943]: time="2025-04-22T14:45:00.309455737Z" level=info msg="ignoring event" container=e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 22 14:45:05 minikube cri-dockerd[1256]: time="2025-04-22T14:45:05Z" level=error msg="error getting RW layer size for container ID '2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd': Error response from daemon: No such container: 2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:45:05 minikube cri-dockerd[1256]: time="2025-04-22T14:45:05Z" level=error msg="Set backoffDuration to : 1m0s for container ID '2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd'"
+
+
+==> container status <==
+CONTAINER           IMAGE                                                                                                 CREATED             STATE               NAME                      ATTEMPT             POD ID              POD
+e706afb91c8e3       leith21/salle-service@sha256:c7e85287f04a312cd9365c586f7f70942870ae5890cb40a21331a0f72e687180         3 minutes ago       Exited              user-service              8                   8c422810b74dc       user-service-user-service-6bbd7754-fpm4m
+c893b7e86ab57       leith21/salle-service@sha256:ecd9bbcefcd225a8fbddfea992b40e24678f118ca975de6fe9ba797c63f6c9ed         20 minutes ago      Running             salle-service             0                   5ce5c7fe175f8       salle-service-salle-service-569487688b-xk9wd
+4f5e5ceed9b1b       leith21/reservation-service@sha256:b25809b5afcbe59926dbb961d7347a08d1a471dfbc33bf7d6ce24bea086572b4   21 minutes ago      Running             reservation-service       0                   f8100952422d1       reservation-service-reservation-service-68f855f774-q8ctc
+dc9da4d309515       6e38f40d628db                                                                                         4 hours ago         Running             storage-provisioner       11                  6eab6aa6055dc       storage-provisioner
+92bef7ada4faf       confluentinc/cp-zookeeper@sha256:5ae28c2f45b89e12e8ba27bd0cfbe6488ef7082a17f01c878ab7f1841a58874b     4 hours ago         Running             zookeeper                 3                   556dd64b5431d       zookeeper-b69bddd77-sk6bn
+04b5b535158a9       bda3cb97199d7                                                                                         5 hours ago         Running             postgres                  3                   efdb4de0fdbb9       postgres-55648cfdd4-pj9mm
+c48ea5ac56e9f       c69fa2e9cbf5f                                                                                         5 hours ago         Running             coredns                   4                   927befd5c1818       coredns-668d6bf9bc-4qt86
+e8e0261ebb231       6e38f40d628db                                                                                         5 hours ago         Exited              storage-provisioner       10                  6eab6aa6055dc       storage-provisioner
+d754c42e875e1       040f9f8aac8cd                                                                                         5 hours ago         Running             kube-proxy                4                   4a87abb13e340       kube-proxy-tl6qs
+4d3443085ac37       a9e7e6b294baf                                                                                         5 hours ago         Running             etcd                      4                   238157ccdd063       etcd-minikube
+d18c3b438bee8       8cab3d2a8bd0f                                                                                         5 hours ago         Running             kube-controller-manager   4                   d7eef4740fbe4       kube-controller-manager-minikube
+239e942196f74       a389e107f4ff1                                                                                         5 hours ago         Running             kube-scheduler            4                   1ea0572b37b50       kube-scheduler-minikube
+c80597ee75e8e       c2e17b8d0f4a3                                                                                         5 hours ago         Running             kube-apiserver            4                   70f4aad573228       kube-apiserver-minikube
+adde2fe4ef08d       confluentinc/cp-zookeeper@sha256:5ae28c2f45b89e12e8ba27bd0cfbe6488ef7082a17f01c878ab7f1841a58874b     16 hours ago        Exited              zookeeper                 2                   9b29e78b1ba22       zookeeper-b69bddd77-sk6bn
+5d766d1ff722d       bda3cb97199d7                                                                                         16 hours ago        Exited              postgres                  2                   9132943dc0bf4       postgres-55648cfdd4-pj9mm
+877e292613b18       c69fa2e9cbf5f                                                                                         16 hours ago        Exited              coredns                   3                   725a3b476ad7b       coredns-668d6bf9bc-4qt86
+ae6e5f30f4ec5       040f9f8aac8cd                                                                                         16 hours ago        Exited              kube-proxy                3                   0cde5712c8802       kube-proxy-tl6qs
+a42554cdd467a       a9e7e6b294baf                                                                                         16 hours ago        Exited              etcd                      3                   5fc5801dfcbc8       etcd-minikube
+06b1175022dd2       a389e107f4ff1                                                                                         16 hours ago        Exited              kube-scheduler            3                   f2b5db05e51f8       kube-scheduler-minikube
+9ac9193d3ce33       8cab3d2a8bd0f                                                                                         16 hours ago        Exited              kube-controller-manager   3                   43a766c8c74fd       kube-controller-manager-minikube
+f9cdc98aad0aa       c2e17b8d0f4a3                                                                                         16 hours ago        Exited              kube-apiserver            3                   ab12e7093c38a       kube-apiserver-minikube
+
+
+==> coredns [877e292613b1] <==
+[INFO] 10.244.0.83:60919 - 56911 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000253732s
+[INFO] 10.244.0.83:60919 - 9538 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000177433s
+[INFO] 10.244.0.83:39955 - 38932 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000699707s
+[INFO] 10.244.0.83:39955 - 43033 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.001029182s
+[INFO] 10.244.0.83:39485 - 30350 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000161655s
+[INFO] 10.244.0.83:39485 - 53903 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000175138s
+[INFO] 10.244.0.83:33745 - 19548 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000156251s
+[INFO] 10.244.0.83:33745 - 24158 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000072878s
+[INFO] 10.244.0.83:40892 - 32051 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000207804s
+[INFO] 10.244.0.83:40892 - 48178 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000264805s
+[INFO] 10.244.0.83:60889 - 27249 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000170356s
+[INFO] 10.244.0.83:60889 - 59764 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000071831s
+[INFO] 10.244.0.83:59034 - 43847 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000215453s
+[INFO] 10.244.0.83:59034 - 1861 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000356032s
+[INFO] 10.244.0.83:47468 - 44275 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000167379s
+[INFO] 10.244.0.83:47468 - 18160 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.00009685s
+[INFO] 10.244.0.83:43338 - 30112 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000137031s
+[INFO] 10.244.0.83:43338 - 12450 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000058529s
+[INFO] 10.244.0.83:52626 - 34265 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000123034s
+[INFO] 10.244.0.83:52626 - 44500 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000115029s
+[INFO] 10.244.0.83:51338 - 33959 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000229283s
+[INFO] 10.244.0.83:51338 - 36002 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00079057s
+[INFO] 10.244.0.83:52240 - 20080 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00019979s
+[INFO] 10.244.0.83:52240 - 17271 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.00167276s
+[INFO] 10.244.0.83:38699 - 31321 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000292849s
+[INFO] 10.244.0.83:38699 - 36189 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000169226s
+[INFO] 10.244.0.83:33942 - 30744 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000128042s
+[INFO] 10.244.0.83:33942 - 44310 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000466775s
+[INFO] 10.244.0.83:37938 - 32171 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000168816s
+[INFO] 10.244.0.83:37938 - 6569 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000298128s
+[INFO] 10.244.0.83:57062 - 14556 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000429081s
+[INFO] 10.244.0.83:57062 - 13786 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.001088621s
+[INFO] 10.244.0.83:55042 - 36956 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000165439s
+[INFO] 10.244.0.83:55042 - 60994 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.00022565s
+[INFO] 10.244.0.83:38657 - 2061 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000182906s
+[INFO] 10.244.0.83:38657 - 17423 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000063411s
+[INFO] 10.244.0.83:38657 - 23201 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000351766s
+[INFO] 10.244.0.83:38657 - 32445 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00022173s
+[INFO] 10.244.0.83:37103 - 33369 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000126362s
+[INFO] 10.244.0.83:37103 - 50527 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000197132s
+[INFO] 10.244.0.83:47857 - 42377 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000273984s
+[INFO] 10.244.0.83:47857 - 2435 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000152545s
+[INFO] 10.244.0.83:51816 - 56148 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000198178s
+[INFO] 10.244.0.83:51816 - 48976 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000231312s
+[INFO] 10.244.0.83:37887 - 28959 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000257228s
+[INFO] 10.244.0.83:37887 - 3096 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000178183s
+[INFO] 10.244.0.83:50252 - 50605 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000144563s
+[INFO] 10.244.0.83:50252 - 39851 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000127925s
+[INFO] 10.244.0.83:41251 - 15715 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000132922s
+[INFO] 10.244.0.83:41251 - 14177 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000076987s
+[INFO] 10.244.0.83:56358 - 28131 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000258326s
+[INFO] 10.244.0.83:56358 - 55014 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000444912s
+[INFO] 10.244.0.83:58082 - 7366 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000133213s
+[INFO] 10.244.0.83:58082 - 30916 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000109961s
+[INFO] 10.244.0.83:53585 - 34126 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000126618s
+[INFO] 10.244.0.83:53585 - 34636 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000049545s
+[INFO] 10.244.0.83:45547 - 46763 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.002937324s
+[INFO] 10.244.0.83:45547 - 61864 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.003749887s
+[INFO] 10.244.0.83:34225 - 28758 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000166476s
+[INFO] 10.244.0.83:34225 - 16980 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00007185s
+
+
+==> coredns [c48ea5ac56e9] <==
+[INFO] 10.244.0.120:46696 - 11816 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000195244s
+[INFO] 10.244.0.120:46696 - 15910 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000143838s
+[INFO] 10.244.0.120:58146 - 42612 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000263636s
+[INFO] 10.244.0.120:58146 - 63350 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00025983s
+[INFO] 10.244.0.120:56012 - 30636 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000200085s
+[INFO] 10.244.0.120:56012 - 61099 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00016221s
+[INFO] 10.244.0.119:56776 - 20995 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000161243s
+[INFO] 10.244.0.119:56776 - 2573 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000133767s
+[INFO] 10.244.0.120:35580 - 46957 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000186438s
+[INFO] 10.244.0.120:35580 - 30575 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000093903s
+[INFO] 10.244.0.119:54951 - 35300 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000183625s
+[INFO] 10.244.0.119:54951 - 729 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000171129s
+[INFO] 10.244.0.120:45072 - 32714 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000175059s
+[INFO] 10.244.0.120:45072 - 41159 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000368746s
+[INFO] 10.244.0.120:58136 - 21525 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000123369s
+[INFO] 10.244.0.120:58136 - 38664 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000067553s
+[INFO] 10.244.0.119:41140 - 52612 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000201528s
+[INFO] 10.244.0.119:41140 - 63874 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000053109s
+[INFO] 10.244.0.120:35232 - 1085 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00014691s
+[INFO] 10.244.0.120:35232 - 43071 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000089602s
+[INFO] 10.244.0.119:53701 - 20494 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000086891s
+[INFO] 10.244.0.119:53701 - 19980 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000161489s
+[INFO] 10.244.0.120:59323 - 33060 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00013116s
+[INFO] 10.244.0.120:59323 - 64042 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.010011219s
+[INFO] 10.244.0.120:56217 - 24528 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.00014218s
+[INFO] 10.244.0.120:56217 - 15918 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000319093s
+[INFO] 10.244.0.120:56856 - 27463 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000240259s
+[INFO] 10.244.0.120:56856 - 11081 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000103305s
+[INFO] 10.244.0.119:60371 - 810 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000134954s
+[INFO] 10.244.0.119:60371 - 553 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000270029s
+[INFO] 10.244.0.119:48512 - 45987 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000165513s
+[INFO] 10.244.0.119:48512 - 22433 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00044582s
+[INFO] 10.244.0.120:40528 - 9592 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000190975s
+[INFO] 10.244.0.120:40528 - 62335 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000056911s
+[INFO] 10.244.0.120:32869 - 27195 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000187628s
+[INFO] 10.244.0.120:32869 - 26425 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000124706s
+[INFO] 10.244.0.120:38894 - 21440 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000234228s
+[INFO] 10.244.0.120:38894 - 54979 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000766013s
+[INFO] 10.244.0.120:33217 - 65147 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000178542s
+[INFO] 10.244.0.120:33217 - 54137 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000103546s
+[INFO] 10.244.0.119:40546 - 12611 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000203009s
+[INFO] 10.244.0.119:40546 - 15937 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000103512s
+[INFO] 10.244.0.119:45890 - 1106 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000153288s
+[INFO] 10.244.0.119:45890 - 17245 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000090329s
+[INFO] 10.244.0.120:53189 - 60813 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.00025263s
+[INFO] 10.244.0.120:53189 - 36227 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000261567s
+[INFO] 10.244.0.120:48208 - 26942 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000186136s
+[INFO] 10.244.0.120:48208 - 15672 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000138196s
+[INFO] 10.244.0.120:35316 - 148 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000152199s
+[INFO] 10.244.0.120:35316 - 19601 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000050682s
+[INFO] 10.244.0.119:58024 - 57883 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000151502s
+[INFO] 10.244.0.119:58024 - 16151 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000052316s
+[INFO] 10.244.0.120:42979 - 22871 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000212377s
+[INFO] 10.244.0.120:42979 - 25193 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000111338s
+[INFO] 10.244.0.119:60047 - 4648 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000149667s
+[INFO] 10.244.0.119:60047 - 7978 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.001580341s
+[INFO] 10.244.0.120:42186 - 38672 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000170053s
+[INFO] 10.244.0.120:42186 - 30738 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000116961s
+[INFO] 10.244.0.120:35012 - 22602 "A IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 96 0.000126581s
+[INFO] 10.244.0.120:35012 - 44361 "AAAA IN kafka.default.svc.cluster.local. udp 49 false 512" NOERROR qr,aa,rd 142 0.000080944s
+
+
+==> describe nodes <==
+Name:               minikube
+Roles:              control-plane
+Labels:             beta.kubernetes.io/arch=amd64
+                    beta.kubernetes.io/os=linux
+                    kubernetes.io/arch=amd64
+                    kubernetes.io/hostname=minikube
+                    kubernetes.io/os=linux
+                    minikube.k8s.io/commit=dd5d320e41b5451cdf3c01891bc4e13d189586ed-dirty
+                    minikube.k8s.io/name=minikube
+                    minikube.k8s.io/primary=true
+                    minikube.k8s.io/updated_at=2025_04_20T00_48_22_0700
+                    minikube.k8s.io/version=v1.35.0
+                    node-role.kubernetes.io/control-plane=
+                    node.kubernetes.io/exclude-from-external-load-balancers=
+Annotations:        kubeadm.alpha.kubernetes.io/cri-socket: unix:///var/run/cri-dockerd.sock
+                    node.alpha.kubernetes.io/ttl: 0
+                    volumes.kubernetes.io/controller-managed-attach-detach: true
+CreationTimestamp:  Sat, 19 Apr 2025 23:48:18 +0000
+Taints:             <none>
+Unschedulable:      false
+Lease:
+  HolderIdentity:  minikube
+  AcquireTime:     <unset>
+  RenewTime:       Tue, 22 Apr 2025 14:48:54 +0000
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Tue, 22 Apr 2025 14:46:02 +0000   Sat, 19 Apr 2025 23:48:16 +0000   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Tue, 22 Apr 2025 14:46:02 +0000   Sat, 19 Apr 2025 23:48:16 +0000   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Tue, 22 Apr 2025 14:46:02 +0000   Sat, 19 Apr 2025 23:48:16 +0000   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Tue, 22 Apr 2025 14:46:02 +0000   Sat, 19 Apr 2025 23:48:18 +0000   KubeletReady                 kubelet is posting ready status
+Addresses:
+  InternalIP:  192.168.49.2
+  Hostname:    minikube
+Capacity:
+  cpu:                2
+  ephemeral-storage:  50208452Ki
+  hugepages-2Mi:      0
+  memory:             4122244Ki
+  pods:               110
+Allocatable:
+  cpu:                2
+  ephemeral-storage:  50208452Ki
+  hugepages-2Mi:      0
+  memory:             4122244Ki
+  pods:               110
+System Info:
+  Machine ID:                 e7fb6a3a714b4847814a43f168b61c7d
+  System UUID:                cc9eca66-b6be-42dd-83d9-8c8ed50578f8
+  Boot ID:                    273e4b65-e0d8-4aba-b9a7-aa3f3fb47165
+  Kernel Version:             6.11.0-24-generic
+  OS Image:                   Ubuntu 22.04.5 LTS
+  Operating System:           linux
+  Architecture:               amd64
+  Container Runtime Version:  docker://27.4.1
+  Kubelet Version:            v1.32.0
+  Kube-Proxy Version:         v1.32.0
+PodCIDR:                      10.244.0.0/24
+PodCIDRs:                     10.244.0.0/24
+Non-terminated Pods:          (12 in total)
+  Namespace                   Name                                                        CPU Requests  CPU Limits  Memory Requests  Memory Limits  Age
+  ---------                   ----                                                        ------------  ----------  ---------------  -------------  ---
+  default                     postgres-55648cfdd4-pj9mm                                   0 (0%)        0 (0%)      0 (0%)           0 (0%)         2d14h
+  default                     reservation-service-reservation-service-68f855f774-q8ctc    0 (0%)        0 (0%)      0 (0%)           0 (0%)         21m
+  default                     salle-service-salle-service-569487688b-xk9wd                0 (0%)        0 (0%)      0 (0%)           0 (0%)         20m
+  default                     user-service-user-service-6bbd7754-fpm4m                    0 (0%)        0 (0%)      0 (0%)           0 (0%)         20m
+  default                     zookeeper-b69bddd77-sk6bn                                   0 (0%)        0 (0%)      0 (0%)           0 (0%)         2d
+  kube-system                 coredns-668d6bf9bc-4qt86                                    100m (5%)     0 (0%)      70Mi (1%)        170Mi (4%)     2d15h
+  kube-system                 etcd-minikube                                               100m (5%)     0 (0%)      100Mi (2%)       0 (0%)         2d15h
+  kube-system                 kube-apiserver-minikube                                     250m (12%)    0 (0%)      0 (0%)           0 (0%)         2d15h
+  kube-system                 kube-controller-manager-minikube                            200m (10%)    0 (0%)      0 (0%)           0 (0%)         2d15h
+  kube-system                 kube-proxy-tl6qs                                            0 (0%)        0 (0%)      0 (0%)           0 (0%)         2d15h
+  kube-system                 kube-scheduler-minikube                                     100m (5%)     0 (0%)      0 (0%)           0 (0%)         2d15h
+  kube-system                 storage-provisioner                                         0 (0%)        0 (0%)      0 (0%)           0 (0%)         2d15h
+Allocated resources:
+  (Total limits may be over 100 percent, i.e., overcommitted.)
+  Resource           Requests    Limits
+  --------           --------    ------
+  cpu                750m (37%)  0 (0%)
+  memory             170Mi (4%)  170Mi (4%)
+  ephemeral-storage  0 (0%)      0 (0%)
+  hugepages-2Mi      0 (0%)      0 (0%)
+Events:              <none>
+
+
+==> dmesg <==
+[  +0.000001] Hardware name: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+[  +0.000002] RIP: 0010:rcu_sched_clock_irq+0x360/0x370
+[  +0.000004] Code: ff ff 65 c6 05 60 4a 24 5a 00 c6 83 41 08 00 00 00 e9 79 fd ff ff f0 80 0b 08 65 81 25 3d 2d 24 5a ff ff ff 7f e9 ca fe ff ff <0f> 0b e9 2d fd ff ff 66 0f 1f 84 00 00 00 00 00 90 90 90 90 90 90
+[  +0.000002] RSP: 0000:ffffb4694105fda8 EFLAGS: 00010086
+[  +0.000003] RAX: 00000000ffffffff RBX: ffff9bf8871aa8c0 RCX: 0000000000000000
+[  +0.000001] RDX: 0000000000000000 RSI: ffffffffa7818f11 RDI: 0000000000000001
+[  +0.000002] RBP: ffffb4694105fdc8 R08: 0000000000000000 R09: 0000000000000000
+[  +0.000001] R10: 0000000000000000 R11: 0000000000000000 R12: 0000000000000001
+[  +0.000002] R13: ffffb4694105ff48 R14: 0000000000000001 R15: ffff9bf8a2b25bc0
+[  +0.000002] FS:  00007fe28f8478c0(0000) GS:ffff9bf8a2b00000(0000) knlGS:0000000000000000
+[  +0.000002] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[  +0.000002] CR2: 00007de76a7924b4 CR3: 0000000107160004 CR4: 00000000000706f0
+[  +0.000004] Call Trace:
+[  +0.000002]  <TASK>
+[  +0.000002]  ? show_regs+0x6c/0x80
+[  +0.000004]  ? __warn+0x88/0x140
+[  +0.000003]  ? rcu_sched_clock_irq+0x360/0x370
+[  +0.000003]  ? report_bug+0x182/0x1b0
+[  +0.000012]  ? handle_bug+0x6e/0xb0
+[  +0.000003]  ? exc_invalid_op+0x18/0x80
+[  +0.000002]  ? asm_exc_invalid_op+0x1b/0x20
+[  +0.000004]  ? rcu_sched_clock_irq+0x360/0x370
+[  +0.000003]  update_process_times+0x6f/0xb0
+[  +0.000004]  tick_nohz_handler+0x97/0x170
+[  +0.000004]  ? __pfx_tick_nohz_handler+0x10/0x10
+[  +0.000003]  __hrtimer_run_queues+0x112/0x2a0
+[  +0.000004]  hrtimer_interrupt+0xf8/0x250
+[  +0.000003]  __sysvec_apic_timer_interrupt+0x59/0x130
+[  +0.000004]  sysvec_apic_timer_interrupt+0x47/0xc0
+[  +0.000003]  asm_sysvec_apic_timer_interrupt+0x1b/0x20
+[  +0.000003] RIP: 0033:0x57c5383fb464
+[  +0.000003] Code: 84 00 00 00 00 00 48 8d 0d 99 73 0c 00 ba 8e 05 00 00 48 8d 35 88 f2 0a 00 48 8d 3d 3f 75 0a 00 e8 d1 d4 06 00 b8 ea ff ff ff <48> 83 c4 38 5b 41 5c 41 5d 41 5e 41 5f 5d c3 48 8d 0d 96 8e 0c 00
+[  +0.000002] RSP: 002b:00007ffc62e30cd0 EFLAGS: 00000246
+[  +0.000002] RAX: 0000000000000000 RBX: 0000000000000000 RCX: 0000000000000000
+[  +0.000002] RDX: 0000000000000000 RSI: 000057c5384a8220 RDI: 000057c547151ed1
+[  +0.000001] RBP: 00007ffc62e30d30 R08: 0000000000000018 R09: 0000000000000000
+[  +0.000002] R10: 000057c5384e4a00 R11: 0000000000000000 R12: 000057c547162680
+[  +0.000001] R13: 0000000000000009 R14: 000057c547162680 R15: 0000000000000000
+[  +0.000003]  </TASK>
+[  +0.000002] ---[ end trace 0000000000000000 ]---
+[  +1.637094] 09:47:31.888927 main     VBoxService 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:22) release log
+              09:47:31.888930 main     Log opened 2025-04-22T09:47:31.888921000Z
+[  +0.000038] 09:47:31.889009 main     OS Product: Linux
+[  +0.000018] 09:47:31.889032 main     OS Release: 6.11.0-24-generic
+[  +0.000017] 09:47:31.889049 main     OS Version: #24~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Mar 25 20:14:34 UTC 2
+[  +0.000028] 09:47:31.889065 main     Executable: /opt/VBoxGuestAdditions-7.1.6/sbin/VBoxService
+              09:47:31.889066 main     Process ID: 1308
+              09:47:31.889066 main     Package type: LINUX_64BITS_GENERIC
+[  +0.005543] 09:47:31.894552 main     7.1.6 r167084 started. Verbose level = 0
+[  +0.008533] 09:47:31.903098 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+[Apr22 11:06] systemd-journald[250]: File /var/log/journal/7aa204ec7564403e93cf602fdf81f25e/user-1000.journal corrupted or uncleanly shut down, renaming and replacing.
+[  +0.435846] kauditd_printk_skb: 152 callbacks suppressed
+[  +5.706025] /dev/sr0: Can't open blockdev
+[Apr22 12:03] hrtimer: interrupt took 3609385 ns
+[Apr22 13:36] 12:17:54.863065 control  Session 0 is about to close ...
+[  +0.007902] 12:17:54.882434 control  Stopping all guest processes ...
+[  +0.000042] 12:17:54.882546 control  Closing all guest files ...
+[  +0.008938] 12:17:54.891297 control  vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+[  +8.236385] 13:36:21.755558 timesync vgsvcTimeSyncWorker: Radical host time change: 4 708 647 000 000ns (HostNow=1 745 328 981 755 000 000 ns HostLast=1 745 324 273 108 000 000 ns)
+[ +10.000577] 13:36:31.756255 timesync vgsvcTimeSyncWorker: Radical guest time change: 4 708 644 834 000ns (GuestNow=1 745 328 991 756 244 000 ns GuestLast=1 745 324 283 111 410 000 ns fSetTimeLastLoop=true)
+
+
+==> etcd [4d3443085ac3] <==
+{"level":"info","ts":"2025-04-22T13:37:01.498933Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":18254}
+{"level":"info","ts":"2025-04-22T13:37:01.563766Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":18254,"took":"64.145506ms","hash":2504784544,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2740224,"current-db-size-in-use":"2.7 MB"}
+{"level":"info","ts":"2025-04-22T13:37:01.563811Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2504784544,"revision":18254,"compact-revision":17870}
+{"level":"info","ts":"2025-04-22T13:40:21.593286Z","caller":"traceutil/trace.go:171","msg":"trace[1148188678] linearizableReadLoop","detail":"{readStateIndex:21980; appliedIndex:21979; }","duration":"348.39811ms","start":"2025-04-22T13:40:21.228124Z","end":"2025-04-22T13:40:21.576522Z","steps":["trace[1148188678] 'read index received'  (duration: 339.897767ms)","trace[1148188678] 'applied index is now lower than readState.Index'  (duration: 8.499502ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-22T13:40:21.605886Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"351.864203ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/csidrivers/\" range_end:\"/registry/csidrivers0\" count_only:true ","response":"range_response_count:0 size:6"}
+{"level":"info","ts":"2025-04-22T13:40:21.608058Z","caller":"traceutil/trace.go:171","msg":"trace[1824858729] range","detail":"{range_begin:/registry/csidrivers/; range_end:/registry/csidrivers0; response_count:0; response_revision:18830; }","duration":"379.941724ms","start":"2025-04-22T13:40:21.228098Z","end":"2025-04-22T13:40:21.608039Z","steps":["trace[1824858729] 'agreement among raft nodes before linearized reading'  (duration: 349.424999ms)"],"step_count":1}
+{"level":"warn","ts":"2025-04-22T13:40:21.613055Z","caller":"v3rpc/interceptor.go:197","msg":"request stats","start time":"2025-04-22T13:40:21.228082Z","time spent":"383.024383ms","remote":"127.0.0.1:52420","response type":"/etcdserverpb.KV/Range","request count":0,"request size":48,"response count":0,"response size":30,"request content":"key:\"/registry/csidrivers/\" range_end:\"/registry/csidrivers0\" count_only:true "}
+{"level":"info","ts":"2025-04-22T13:42:01.520401Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":18669}
+{"level":"info","ts":"2025-04-22T13:42:01.705909Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":18669,"took":"183.973298ms","hash":2812943804,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2473984,"current-db-size-in-use":"2.5 MB"}
+{"level":"info","ts":"2025-04-22T13:42:01.705952Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2812943804,"revision":18669,"compact-revision":18254}
+{"level":"info","ts":"2025-04-22T13:47:01.535588Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":18918}
+{"level":"info","ts":"2025-04-22T13:47:01.617912Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":18918,"took":"81.73499ms","hash":1622926595,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2334720,"current-db-size-in-use":"2.3 MB"}
+{"level":"info","ts":"2025-04-22T13:47:01.617965Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":1622926595,"revision":18918,"compact-revision":18669}
+{"level":"info","ts":"2025-04-22T13:52:01.547991Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":19303}
+{"level":"info","ts":"2025-04-22T13:52:01.744126Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":19303,"took":"194.671269ms","hash":3868763207,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2514944,"current-db-size-in-use":"2.5 MB"}
+{"level":"info","ts":"2025-04-22T13:52:01.744187Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":3868763207,"revision":19303,"compact-revision":18918}
+{"level":"info","ts":"2025-04-22T13:57:01.561968Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":19573}
+{"level":"info","ts":"2025-04-22T13:57:01.711747Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":19573,"took":"145.749469ms","hash":1775373310,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2203648,"current-db-size-in-use":"2.2 MB"}
+{"level":"info","ts":"2025-04-22T13:57:01.711809Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":1775373310,"revision":19573,"compact-revision":19303}
+{"level":"info","ts":"2025-04-22T14:02:01.570445Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":19832}
+{"level":"info","ts":"2025-04-22T14:02:01.609817Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":19832,"took":"39.008117ms","hash":2479753079,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2162688,"current-db-size-in-use":"2.2 MB"}
+{"level":"info","ts":"2025-04-22T14:02:01.609952Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2479753079,"revision":19832,"compact-revision":19573}
+{"level":"info","ts":"2025-04-22T14:07:01.582899Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":20086}
+{"level":"info","ts":"2025-04-22T14:07:01.703127Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":20086,"took":"119.050047ms","hash":8313749,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2187264,"current-db-size-in-use":"2.2 MB"}
+{"level":"info","ts":"2025-04-22T14:07:01.703177Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":8313749,"revision":20086,"compact-revision":19832}
+{"level":"info","ts":"2025-04-22T14:12:01.605184Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":20368}
+{"level":"info","ts":"2025-04-22T14:12:01.836914Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":20368,"took":"226.288351ms","hash":465310197,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2895872,"current-db-size-in-use":"2.9 MB"}
+{"level":"info","ts":"2025-04-22T14:12:01.837268Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":465310197,"revision":20368,"compact-revision":20086}
+{"level":"warn","ts":"2025-04-22T14:12:01.865901Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"219.203292ms","expected-duration":"100ms","prefix":"","request":"header:<ID:8128036753703288620 username:\"kube-apiserver-etcd-client\" auth_revision:1 > txn:<compare:<target:MOD key:\"/registry/services/endpoints/kube-system/k8s.io-minikube-hostpath\" mod_revision:20879 > success:<request_put:<key:\"/registry/services/endpoints/kube-system/k8s.io-minikube-hostpath\" value_size:1020 >> failure:<request_range:<key:\"/registry/services/endpoints/kube-system/k8s.io-minikube-hostpath\" > >>","response":"size:18"}
+{"level":"warn","ts":"2025-04-22T14:12:01.869392Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"116.129378ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/health\" ","response":"range_response_count:0 size:6"}
+{"level":"info","ts":"2025-04-22T14:12:01.876660Z","caller":"traceutil/trace.go:171","msg":"trace[1000195503] linearizableReadLoop","detail":"{readStateIndex:24447; appliedIndex:24446; }","duration":"114.798129ms","start":"2025-04-22T14:12:01.753246Z","end":"2025-04-22T14:12:01.868044Z","steps":["trace[1000195503] 'read index received'  (duration: 25.045µs)","trace[1000195503] 'applied index is now lower than readState.Index'  (duration: 114.771362ms)"],"step_count":2}
+{"level":"info","ts":"2025-04-22T14:12:01.876666Z","caller":"traceutil/trace.go:171","msg":"trace[1067042871] transaction","detail":"{read_only:false; response_revision:20882; number_of_response:1; }","duration":"256.233921ms","start":"2025-04-22T14:12:01.612054Z","end":"2025-04-22T14:12:01.868288Z","steps":["trace[1067042871] 'get key's previous created_revision and leaseID' {req_type:put; key:/registry/services/endpoints/kube-system/k8s.io-minikube-hostpath; req_size:1090; } (duration: 217.329567ms)"],"step_count":1}
+{"level":"info","ts":"2025-04-22T14:12:01.885629Z","caller":"traceutil/trace.go:171","msg":"trace[1351505046] range","detail":"{range_begin:/registry/health; range_end:; response_count:0; response_revision:20882; }","duration":"116.208827ms","start":"2025-04-22T14:12:01.753223Z","end":"2025-04-22T14:12:01.869432Z","steps":["trace[1351505046] 'agreement among raft nodes before linearized reading'  (duration: 116.104573ms)"],"step_count":1}
+{"level":"info","ts":"2025-04-22T14:17:01.617516Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":20881}
+{"level":"info","ts":"2025-04-22T14:17:01.690339Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":20881,"took":"72.129165ms","hash":2041927718,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":1515520,"current-db-size-in-use":"1.5 MB"}
+{"level":"info","ts":"2025-04-22T14:17:01.690391Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2041927718,"revision":20881,"compact-revision":20368}
+{"level":"info","ts":"2025-04-22T14:22:01.631668Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":21127}
+{"level":"info","ts":"2025-04-22T14:22:01.751540Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":21127,"took":"119.518757ms","hash":3880912911,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":1933312,"current-db-size-in-use":"1.9 MB"}
+{"level":"info","ts":"2025-04-22T14:22:01.751620Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":3880912911,"revision":21127,"compact-revision":20881}
+{"level":"info","ts":"2025-04-22T14:27:01.654032Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":21372}
+{"level":"info","ts":"2025-04-22T14:27:01.714204Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":21372,"took":"59.919037ms","hash":3106711076,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2088960,"current-db-size-in-use":"2.1 MB"}
+{"level":"info","ts":"2025-04-22T14:27:01.714250Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":3106711076,"revision":21372,"compact-revision":21127}
+{"level":"info","ts":"2025-04-22T14:29:12.750208Z","caller":"traceutil/trace.go:171","msg":"trace[1880558094] transaction","detail":"{read_only:false; response_revision:21803; number_of_response:1; }","duration":"300.860993ms","start":"2025-04-22T14:29:12.449329Z","end":"2025-04-22T14:29:12.750190Z","steps":["trace[1880558094] 'process raft request'  (duration: 300.76632ms)"],"step_count":1}
+{"level":"warn","ts":"2025-04-22T14:29:12.756295Z","caller":"v3rpc/interceptor.go:197","msg":"request stats","start time":"2025-04-22T14:29:12.449315Z","time spent":"303.184258ms","remote":"127.0.0.1:52202","response type":"/etcdserverpb.KV/Txn","request count":1,"request size":1093,"response count":0,"response size":42,"request content":"compare:<target:MOD key:\"/registry/services/endpoints/kube-system/k8s.io-minikube-hostpath\" mod_revision:21802 > success:<request_put:<key:\"/registry/services/endpoints/kube-system/k8s.io-minikube-hostpath\" value_size:1020 >> failure:<request_range:<key:\"/registry/services/endpoints/kube-system/k8s.io-minikube-hostpath\" > >"}
+{"level":"info","ts":"2025-04-22T14:29:12.757867Z","caller":"traceutil/trace.go:171","msg":"trace[1808253306] linearizableReadLoop","detail":"{readStateIndex:25584; appliedIndex:25583; }","duration":"222.081745ms","start":"2025-04-22T14:29:12.535772Z","end":"2025-04-22T14:29:12.757854Z","steps":["trace[1808253306] 'read index received'  (duration: 214.541969ms)","trace[1808253306] 'applied index is now lower than readState.Index'  (duration: 7.539404ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-22T14:29:12.761920Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"225.988892ms","expected-duration":"100ms","prefix":"read-only range ","request":"limit:1 keys_only:true ","response":"range_response_count:0 size:6"}
+{"level":"info","ts":"2025-04-22T14:29:12.762159Z","caller":"traceutil/trace.go:171","msg":"trace[223107539] transaction","detail":"{read_only:false; response_revision:21804; number_of_response:1; }","duration":"274.655379ms","start":"2025-04-22T14:29:12.487494Z","end":"2025-04-22T14:29:12.762150Z","steps":["trace[223107539] 'process raft request'  (duration: 270.287564ms)"],"step_count":1}
+{"level":"info","ts":"2025-04-22T14:29:12.763170Z","caller":"traceutil/trace.go:171","msg":"trace[1235189769] range","detail":"{range_begin:; range_end:; response_count:0; response_revision:21804; }","duration":"226.191004ms","start":"2025-04-22T14:29:12.535767Z","end":"2025-04-22T14:29:12.761958Z","steps":["trace[1235189769] 'agreement among raft nodes before linearized reading'  (duration: 222.199836ms)"],"step_count":1}
+{"level":"info","ts":"2025-04-22T14:32:01.675676Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":21630}
+{"level":"info","ts":"2025-04-22T14:32:01.804654Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":21630,"took":"128.543572ms","hash":1509920252,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2379776,"current-db-size-in-use":"2.4 MB"}
+{"level":"info","ts":"2025-04-22T14:32:01.804775Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":1509920252,"revision":21630,"compact-revision":21372}
+{"level":"info","ts":"2025-04-22T14:37:01.687050Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":21977}
+{"level":"info","ts":"2025-04-22T14:37:01.797547Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":21977,"took":"110.260057ms","hash":2249541559,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2154496,"current-db-size-in-use":"2.2 MB"}
+{"level":"info","ts":"2025-04-22T14:37:01.797836Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2249541559,"revision":21977,"compact-revision":21630}
+{"level":"info","ts":"2025-04-22T14:42:01.704467Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":22243}
+{"level":"info","ts":"2025-04-22T14:42:01.842591Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":22243,"took":"137.833365ms","hash":1836341175,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2150400,"current-db-size-in-use":"2.2 MB"}
+{"level":"info","ts":"2025-04-22T14:42:01.842635Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":1836341175,"revision":22243,"compact-revision":21977}
+{"level":"info","ts":"2025-04-22T14:47:01.716632Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":22516}
+{"level":"info","ts":"2025-04-22T14:47:01.785879Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":22516,"took":"68.920668ms","hash":2299440585,"current-db-size-bytes":6008832,"current-db-size":"6.0 MB","current-db-size-in-use-bytes":2203648,"current-db-size-in-use":"2.2 MB"}
+{"level":"info","ts":"2025-04-22T14:47:01.785928Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2299440585,"revision":22516,"compact-revision":22243}
+
+
+==> etcd [a42554cdd467] <==
+{"level":"info","ts":"2025-04-21T22:50:59.852823Z","caller":"traceutil/trace.go:171","msg":"trace[1848332956] range","detail":"{range_begin:/registry/deployments; range_end:; response_count:0; response_revision:4273; }","duration":"119.263732ms","start":"2025-04-21T22:50:59.733549Z","end":"2025-04-21T22:50:59.852813Z","steps":["trace[1848332956] 'agreement among raft nodes before linearized reading'  (duration: 119.11745ms)"],"step_count":1}
+{"level":"warn","ts":"2025-04-21T22:50:59.853064Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"117.101938ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/roles\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.853090Z","caller":"traceutil/trace.go:171","msg":"trace[2133659071] range","detail":"{range_begin:/registry/roles; range_end:; response_count:0; response_revision:4273; }","duration":"117.270216ms","start":"2025-04-21T22:50:59.735813Z","end":"2025-04-21T22:50:59.853083Z","steps":["trace[2133659071] 'agreement among raft nodes before linearized reading'  (duration: 117.108572ms)"],"step_count":1}
+{"level":"warn","ts":"2025-04-21T22:50:59.892413Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"125.439474ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/clusterrolebindings\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.892907Z","caller":"traceutil/trace.go:171","msg":"trace[1970755219] range","detail":"{range_begin:/registry/clusterrolebindings; range_end:; response_count:0; response_revision:4273; }","duration":"125.939986ms","start":"2025-04-21T22:50:59.766953Z","end":"2025-04-21T22:50:59.892893Z","steps":["trace[1970755219] 'agreement among raft nodes before linearized reading'  (duration: 101.634345ms)","trace[1970755219] 'range keys from in-memory index tree'  (duration: 23.790992ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:50:59.893036Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"126.083113ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/flowschemas\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"warn","ts":"2025-04-21T22:50:59.893350Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"126.409428ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/validatingadmissionpolicybindings\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.893374Z","caller":"traceutil/trace.go:171","msg":"trace[1506991055] range","detail":"{range_begin:/registry/validatingadmissionpolicybindings; range_end:; response_count:0; response_revision:4273; }","duration":"126.43373ms","start":"2025-04-21T22:50:59.766930Z","end":"2025-04-21T22:50:59.893364Z","steps":["trace[1506991055] 'agreement among raft nodes before linearized reading'  (duration: 101.676693ms)","trace[1506991055] 'range keys from in-memory index tree'  (duration: 24.728779ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:50:59.893442Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"126.522102ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/ingressclasses\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.893453Z","caller":"traceutil/trace.go:171","msg":"trace[829754092] range","detail":"{range_begin:/registry/ingressclasses; range_end:; response_count:0; response_revision:4273; }","duration":"126.537684ms","start":"2025-04-21T22:50:59.766912Z","end":"2025-04-21T22:50:59.893449Z","steps":["trace[829754092] 'agreement among raft nodes before linearized reading'  (duration: 101.70031ms)","trace[829754092] 'range keys from in-memory index tree'  (duration: 24.823001ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:50:59.893510Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"126.613369ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/mutatingwebhookconfigurations\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.893519Z","caller":"traceutil/trace.go:171","msg":"trace[2105656389] range","detail":"{range_begin:/registry/mutatingwebhookconfigurations; range_end:; response_count:0; response_revision:4273; }","duration":"126.639157ms","start":"2025-04-21T22:50:59.766877Z","end":"2025-04-21T22:50:59.893516Z","steps":["trace[2105656389] 'agreement among raft nodes before linearized reading'  (duration: 101.738637ms)","trace[2105656389] 'range keys from in-memory index tree'  (duration: 24.888298ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:50:59.893568Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"137.529234ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/priorityclasses\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.893053Z","caller":"traceutil/trace.go:171","msg":"trace[1665759943] range","detail":"{range_begin:/registry/flowschemas; range_end:; response_count:0; response_revision:4273; }","duration":"126.105364ms","start":"2025-04-21T22:50:59.766941Z","end":"2025-04-21T22:50:59.893047Z","steps":["trace[1665759943] 'agreement among raft nodes before linearized reading'  (duration: 101.661946ms)","trace[1665759943] 'range keys from in-memory index tree'  (duration: 24.419581ms)"],"step_count":2}
+{"level":"info","ts":"2025-04-21T22:50:59.893576Z","caller":"traceutil/trace.go:171","msg":"trace[1764105479] range","detail":"{range_begin:/registry/priorityclasses; range_end:; response_count:0; response_revision:4273; }","duration":"137.553648ms","start":"2025-04-21T22:50:59.756020Z","end":"2025-04-21T22:50:59.893574Z","steps":["trace[1764105479] 'agreement among raft nodes before linearized reading'  (duration: 112.598082ms)","trace[1764105479] 'range keys from in-memory index tree'  (duration: 24.941292ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:50:59.907212Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"170.700836ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/rolebindings\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.911793Z","caller":"traceutil/trace.go:171","msg":"trace[525693654] range","detail":"{range_begin:/registry/rolebindings; range_end:; response_count:0; response_revision:4273; }","duration":"175.285777ms","start":"2025-04-21T22:50:59.736492Z","end":"2025-04-21T22:50:59.911778Z","steps":["trace[525693654] 'agreement among raft nodes before linearized reading'  (duration: 132.129707ms)","trace[525693654] 'range keys from in-memory index tree'  (duration: 38.562471ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:50:59.911935Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"175.463071ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/controllers\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.911953Z","caller":"traceutil/trace.go:171","msg":"trace[1336776827] range","detail":"{range_begin:/registry/controllers; range_end:; response_count:0; response_revision:4273; }","duration":"175.494437ms","start":"2025-04-21T22:50:59.736454Z","end":"2025-04-21T22:50:59.911949Z","steps":["trace[1336776827] 'agreement among raft nodes before linearized reading'  (duration: 132.171077ms)","trace[1336776827] 'range keys from in-memory index tree'  (duration: 43.290155ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:50:59.912006Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"175.611673ms","expected-duration":"100ms","prefix":"read-only range ","request":"key:\"/registry/apiextensions.k8s.io/customresourcedefinitions\" limit:1 ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:50:59.912017Z","caller":"traceutil/trace.go:171","msg":"trace[650717604] range","detail":"{range_begin:/registry/apiextensions.k8s.io/customresourcedefinitions; range_end:; response_count:0; response_revision:4273; }","duration":"175.633419ms","start":"2025-04-21T22:50:59.736379Z","end":"2025-04-21T22:50:59.912012Z","steps":["trace[650717604] 'agreement among raft nodes before linearized reading'  (duration: 132.250348ms)","trace[650717604] 'range keys from in-memory index tree'  (duration: 43.369362ms)"],"step_count":2}
+{"level":"warn","ts":"2025-04-21T22:51:14.270751Z","caller":"etcdserver/util.go:170","msg":"apply request took too long","took":"188.357361ms","expected-duration":"100ms","prefix":"read-only range ","request":"limit:1 keys_only:true ","response":"range_response_count:0 size:5"}
+{"level":"info","ts":"2025-04-21T22:51:14.275725Z","caller":"traceutil/trace.go:171","msg":"trace[1611665415] range","detail":"{range_begin:; range_end:; response_count:0; response_revision:4406; }","duration":"193.339481ms","start":"2025-04-21T22:51:14.082365Z","end":"2025-04-21T22:51:14.275705Z","steps":["trace[1611665415] 'range keys from in-memory index tree'  (duration: 188.2144ms)"],"step_count":1}
+{"level":"info","ts":"2025-04-21T23:00:51.874561Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":5134}
+{"level":"info","ts":"2025-04-21T23:00:52.213481Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":5134,"took":"331.372052ms","hash":2395147593,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":5165056,"current-db-size-in-use":"5.2 MB"}
+{"level":"info","ts":"2025-04-21T23:00:52.215514Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2395147593,"revision":5134,"compact-revision":3805}
+{"level":"info","ts":"2025-04-21T23:05:51.886020Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":5822}
+{"level":"info","ts":"2025-04-21T23:05:52.036158Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":5822,"took":"149.419165ms","hash":2440795569,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":4145152,"current-db-size-in-use":"4.1 MB"}
+{"level":"info","ts":"2025-04-21T23:05:52.036216Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2440795569,"revision":5822,"compact-revision":5134}
+{"level":"info","ts":"2025-04-21T23:06:11.538796Z","caller":"traceutil/trace.go:171","msg":"trace[299421118] transaction","detail":"{read_only:false; response_revision:6532; number_of_response:1; }","duration":"145.159983ms","start":"2025-04-21T23:06:11.393622Z","end":"2025-04-21T23:06:11.538782Z","steps":["trace[299421118] 'process raft request'  (duration: 144.921466ms)"],"step_count":1}
+{"level":"info","ts":"2025-04-21T23:10:51.897330Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":6484}
+{"level":"info","ts":"2025-04-21T23:10:51.923895Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":6484,"took":"26.04639ms","hash":995388002,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":4521984,"current-db-size-in-use":"4.5 MB"}
+{"level":"info","ts":"2025-04-21T23:10:51.923949Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":995388002,"revision":6484,"compact-revision":5822}
+{"level":"info","ts":"2025-04-21T23:15:51.907897Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":7193}
+{"level":"info","ts":"2025-04-21T23:15:51.925783Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":7193,"took":"17.338691ms","hash":1275048668,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":5648384,"current-db-size-in-use":"5.6 MB"}
+{"level":"info","ts":"2025-04-21T23:15:51.926053Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":1275048668,"revision":7193,"compact-revision":6484}
+{"level":"info","ts":"2025-04-21T23:20:51.924169Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":8220}
+{"level":"info","ts":"2025-04-21T23:20:51.949723Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":8220,"took":"24.134063ms","hash":3524208077,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":4780032,"current-db-size-in-use":"4.8 MB"}
+{"level":"info","ts":"2025-04-21T23:20:51.949773Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":3524208077,"revision":8220,"compact-revision":7193}
+{"level":"info","ts":"2025-04-21T23:25:32.474660Z","caller":"etcdserver/server.go:1473","msg":"triggering snapshot","local-member-id":"aec36adc501070cc","local-member-applied-index":10001,"local-member-snapshot-index":0,"local-member-snapshot-count":10000}
+{"level":"info","ts":"2025-04-21T23:25:32.535744Z","caller":"etcdserver/server.go:2493","msg":"saved snapshot","snapshot-index":10001}
+{"level":"info","ts":"2025-04-21T23:25:32.535958Z","caller":"etcdserver/server.go:2523","msg":"compacted Raft logs","compact-index":5001}
+{"level":"info","ts":"2025-04-21T23:25:51.938888Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":8513}
+{"level":"info","ts":"2025-04-21T23:25:52.125201Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":8513,"took":"185.699609ms","hash":1531290045,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":3182592,"current-db-size-in-use":"3.2 MB"}
+{"level":"info","ts":"2025-04-21T23:25:52.125251Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":1531290045,"revision":8513,"compact-revision":8220}
+{"level":"info","ts":"2025-04-21T23:30:51.970021Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":8885}
+{"level":"info","ts":"2025-04-21T23:30:52.079723Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":8885,"took":"109.094975ms","hash":3852791345,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":3706880,"current-db-size-in-use":"3.7 MB"}
+{"level":"info","ts":"2025-04-21T23:30:52.079784Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":3852791345,"revision":8885,"compact-revision":8513}
+{"level":"info","ts":"2025-04-21T23:35:51.989116Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":9362}
+{"level":"info","ts":"2025-04-21T23:35:52.020608Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":9362,"took":"27.838291ms","hash":604718796,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":3727360,"current-db-size-in-use":"3.7 MB"}
+{"level":"info","ts":"2025-04-21T23:35:52.021142Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":604718796,"revision":9362,"compact-revision":8885}
+{"level":"info","ts":"2025-04-21T23:40:52.006664Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":9708}
+{"level":"info","ts":"2025-04-21T23:40:52.310611Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":9708,"took":"301.442569ms","hash":2342371309,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":3219456,"current-db-size-in-use":"3.2 MB"}
+{"level":"info","ts":"2025-04-21T23:40:52.310671Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":2342371309,"revision":9708,"compact-revision":9362}
+{"level":"info","ts":"2025-04-21T23:45:52.029416Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":9983}
+{"level":"info","ts":"2025-04-21T23:45:52.078703Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":9983,"took":"48.598771ms","hash":1669041418,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":3026944,"current-db-size-in-use":"3.0 MB"}
+{"level":"info","ts":"2025-04-21T23:45:52.078769Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":1669041418,"revision":9983,"compact-revision":9708}
+{"level":"info","ts":"2025-04-21T23:50:52.041795Z","caller":"mvcc/index.go:214","msg":"compact tree index","revision":10246}
+{"level":"info","ts":"2025-04-21T23:50:52.065993Z","caller":"mvcc/kvstore_compaction.go:72","msg":"finished scheduled compaction","compact-revision":10246,"took":"23.691605ms","hash":922356423,"current-db-size-bytes":5926912,"current-db-size":"5.9 MB","current-db-size-in-use-bytes":3674112,"current-db-size-in-use":"3.7 MB"}
+{"level":"info","ts":"2025-04-21T23:50:52.066040Z","caller":"mvcc/hash.go:151","msg":"storing new hash","hash":922356423,"revision":10246,"compact-revision":9983}
+
+
+==> kernel <==
+ 14:48:58 up  3:43,  0 users,  load average: 4.42, 3.05, 3.04
+Linux minikube 6.11.0-24-generic #24~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Mar 25 20:14:34 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 22.04.5 LTS"
+
+
+==> kube-apiserver [c80597ee75e8] <==
+I0422 10:18:44.626832       1 remote_available_controller.go:411] Starting RemoteAvailability controller
+I0422 10:18:44.626851       1 cache.go:32] Waiting for caches to sync for RemoteAvailability controller
+I0422 10:18:44.627284       1 gc_controller.go:78] Starting apiserver lease garbage collector
+I0422 10:18:44.627730       1 controller.go:119] Starting legacy_token_tracking_controller
+I0422 10:18:44.627752       1 shared_informer.go:313] Waiting for caches to sync for configmaps
+I0422 10:18:44.628235       1 cluster_authentication_trust_controller.go:462] Starting cluster_authentication_trust_controller controller
+I0422 10:18:44.629644       1 shared_informer.go:313] Waiting for caches to sync for cluster_authentication_trust_controller
+I0422 10:18:44.629832       1 crdregistration_controller.go:114] Starting crd-autoregister controller
+I0422 10:18:44.629844       1 shared_informer.go:313] Waiting for caches to sync for crd-autoregister
+I0422 10:18:44.623666       1 dynamic_serving_content.go:135] "Starting controller" name="aggregator-proxy-cert::/var/lib/minikube/certs/front-proxy-client.crt::/var/lib/minikube/certs/front-proxy-client.key"
+I0422 10:18:44.623529       1 customresource_discovery_controller.go:292] Starting DiscoveryController
+I0422 10:18:44.628410       1 dynamic_cafile_content.go:161] "Starting controller" name="client-ca-bundle::/var/lib/minikube/certs/ca.crt"
+I0422 10:18:44.628558       1 dynamic_cafile_content.go:161] "Starting controller" name="request-header::/var/lib/minikube/certs/front-proxy-ca.crt"
+I0422 10:18:44.671510       1 system_namespaces_controller.go:66] Starting system namespaces controller
+I0422 10:18:44.688113       1 controller.go:142] Starting OpenAPI controller
+I0422 10:18:44.688431       1 controller.go:90] Starting OpenAPI V3 controller
+I0422 10:18:44.688769       1 naming_controller.go:294] Starting NamingConditionController
+I0422 10:18:44.688959       1 establishing_controller.go:81] Starting EstablishingController
+I0422 10:18:44.689205       1 nonstructuralschema_controller.go:195] Starting NonStructuralSchemaConditionController
+I0422 10:18:44.689459       1 apiapproval_controller.go:189] Starting KubernetesAPIApprovalPolicyConformantConditionController
+I0422 10:18:44.689531       1 crd_finalizer.go:269] Starting CRDFinalizer
+I0422 10:18:44.788897       1 shared_informer.go:320] Caches are synced for *generic.policySource[*k8s.io/api/admissionregistration/v1.ValidatingAdmissionPolicy,*k8s.io/api/admissionregistration/v1.ValidatingAdmissionPolicyBinding,k8s.io/apiserver/pkg/admission/plugin/policy/validating.Validator]
+I0422 10:18:44.788930       1 policy_source.go:240] refreshing policies
+I0422 10:18:44.822335       1 controller.go:615] quota admission added evaluator for: leases.coordination.k8s.io
+I0422 10:18:44.826218       1 apf_controller.go:382] Running API Priority and Fairness config worker
+I0422 10:18:44.826245       1 apf_controller.go:385] Running API Priority and Fairness periodic rebalancing process
+I0422 10:18:44.828750       1 shared_informer.go:320] Caches are synced for configmaps
+I0422 10:18:44.830726       1 shared_informer.go:320] Caches are synced for cluster_authentication_trust_controller
+I0422 10:18:44.830775       1 shared_informer.go:320] Caches are synced for crd-autoregister
+I0422 10:18:44.832486       1 aggregator.go:171] initial CRD sync complete...
+I0422 10:18:44.832511       1 autoregister_controller.go:144] Starting autoregister controller
+I0422 10:18:44.832517       1 cache.go:32] Waiting for caches to sync for autoregister controller
+I0422 10:18:44.856589       1 shared_informer.go:320] Caches are synced for node_authorizer
+I0422 10:18:44.925113       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller
+I0422 10:18:44.938054       1 cache.go:39] Caches are synced for RemoteAvailability controller
+I0422 10:18:44.938159       1 cache.go:39] Caches are synced for LocalAvailability controller
+I0422 10:18:44.943129       1 handler_discovery.go:451] Starting ResourceDiscoveryManager
+E0422 10:18:44.945719       1 controller.go:97] Error removing old endpoints from kubernetes service: no API server IP addresses were listed in storage, refusing to erase all endpoints for the kubernetes Service
+I0422 10:18:44.947789       1 cache.go:39] Caches are synced for autoregister controller
+I0422 10:18:45.117552       1 controller.go:615] quota admission added evaluator for: serviceaccounts
+I0422 10:18:45.657778       1 storage_scheduling.go:111] all system priority classes are created successfully or already exist.
+I0422 10:18:50.462151       1 controller.go:615] quota admission added evaluator for: endpoints
+I0422 10:18:50.466433       1 controller.go:615] quota admission added evaluator for: endpointslices.discovery.k8s.io
+I0422 10:18:50.486762       1 controller.go:615] quota admission added evaluator for: jobs.batch
+I0422 10:18:50.493343       1 controller.go:615] quota admission added evaluator for: deployments.apps
+I0422 10:18:50.511834       1 controller.go:615] quota admission added evaluator for: daemonsets.apps
+I0422 10:18:50.525408       1 controller.go:615] quota admission added evaluator for: replicasets.apps
+I0422 10:18:50.560830       1 controller.go:615] quota admission added evaluator for: cronjobs.batch
+E0422 10:18:55.148266       1 controller.go:195] "Failed to update lease" err="Operation cannot be fulfilled on leases.coordination.k8s.io \"apiserver-eqt674mfxb4j56mrjjkoe7b7ii\": StorageError: invalid object, Code: 4, Key: /registry/leases/kube-system/apiserver-eqt674mfxb4j56mrjjkoe7b7ii, ResourceVersion: 0, AdditionalErrorMsg: Precondition failed: UID in precondition: c4f7044e-a076-4bf3-80ff-298f2116e08f, UID in object meta: "
+E0422 11:57:15.362707       1 watch.go:278] "Unhandled Error" err="http2: stream closed" logger="UnhandledError"
+E0422 12:14:22.207483       1 watch.go:278] "Unhandled Error" err="http2: stream closed" logger="UnhandledError"
+E0422 13:36:41.249454       1 authentication.go:74] "Unable to authenticate the request" err="[invalid bearer token, service account token has expired]"
+E0422 13:36:41.569529       1 authentication.go:74] "Unable to authenticate the request" err="[invalid bearer token, service account token has expired]"
+E0422 13:40:48.637486       1 authentication.go:74] "Unable to authenticate the request" err="[invalid bearer token, service account token has expired]"
+E0422 13:43:06.906192       1 authentication.go:74] "Unable to authenticate the request" err="[invalid bearer token, service account token has expired]"
+E0422 13:43:10.619870       1 authentication.go:74] "Unable to authenticate the request" err="[invalid bearer token, service account token has expired]"
+E0422 13:43:10.619870       1 authentication.go:74] "Unable to authenticate the request" err="[invalid bearer token, service account token has expired]"
+I0422 14:37:01.916307       1 alloc.go:330] "allocated clusterIPs" service="default/user-service" clusterIPs={"IPv4":"10.96.158.105"}
+I0422 14:37:02.195310       1 alloc.go:330] "allocated clusterIPs" service="default/salle-service" clusterIPs={"IPv4":"10.107.11.48"}
+I0422 14:37:02.491666       1 alloc.go:330] "allocated clusterIPs" service="default/reservation-service" clusterIPs={"IPv4":"10.96.235.202"}
+
+
+==> kube-apiserver [f9cdc98aad0a] <==
+I0421 22:50:54.298922       1 system_namespaces_controller.go:66] Starting system namespaces controller
+I0421 22:50:54.298939       1 remote_available_controller.go:411] Starting RemoteAvailability controller
+I0421 22:50:54.298944       1 cache.go:32] Waiting for caches to sync for RemoteAvailability controller
+I0421 22:50:54.298987       1 dynamic_serving_content.go:135] "Starting controller" name="aggregator-proxy-cert::/var/lib/minikube/certs/front-proxy-client.crt::/var/lib/minikube/certs/front-proxy-client.key"
+I0421 22:50:54.299070       1 tlsconfig.go:243] "Starting DynamicServingCertificateController"
+I0421 22:50:54.609387       1 dynamic_cafile_content.go:161] "Starting controller" name="client-ca-bundle::/var/lib/minikube/certs/ca.crt"
+I0421 22:50:54.790369       1 local_available_controller.go:156] Starting LocalAvailability controller
+I0421 22:50:54.790416       1 cache.go:32] Waiting for caches to sync for LocalAvailability controller
+I0421 22:50:54.790602       1 aggregator.go:169] waiting for initial CRD sync...
+I0421 22:50:54.791098       1 controller.go:78] Starting OpenAPI AggregationController
+I0421 22:50:54.791144       1 controller.go:80] Starting OpenAPI V3 AggregationController
+I0421 22:50:54.791177       1 apf_controller.go:377] Starting API Priority and Fairness config controller
+I0421 22:50:54.791263       1 dynamic_cafile_content.go:161] "Starting controller" name="request-header::/var/lib/minikube/certs/front-proxy-ca.crt"
+I0421 22:50:54.792117       1 dynamic_serving_content.go:135] "Starting controller" name="serving-cert::/var/lib/minikube/certs/apiserver.crt::/var/lib/minikube/certs/apiserver.key"
+I0421 22:50:55.042956       1 cluster_authentication_trust_controller.go:462] Starting cluster_authentication_trust_controller controller
+I0421 22:50:55.043015       1 shared_informer.go:313] Waiting for caches to sync for cluster_authentication_trust_controller
+I0421 22:50:55.043499       1 controller.go:119] Starting legacy_token_tracking_controller
+I0421 22:50:55.043514       1 shared_informer.go:313] Waiting for caches to sync for configmaps
+I0421 22:50:55.043618       1 dynamic_cafile_content.go:161] "Starting controller" name="client-ca-bundle::/var/lib/minikube/certs/ca.crt"
+I0421 22:50:55.043722       1 dynamic_cafile_content.go:161] "Starting controller" name="request-header::/var/lib/minikube/certs/front-proxy-ca.crt"
+I0421 22:50:55.045733       1 customresource_discovery_controller.go:292] Starting DiscoveryController
+I0421 22:50:55.046712       1 controller.go:142] Starting OpenAPI controller
+I0421 22:50:55.046838       1 controller.go:90] Starting OpenAPI V3 controller
+I0421 22:50:55.046860       1 naming_controller.go:294] Starting NamingConditionController
+I0421 22:50:55.047132       1 establishing_controller.go:81] Starting EstablishingController
+I0421 22:50:55.047192       1 nonstructuralschema_controller.go:195] Starting NonStructuralSchemaConditionController
+I0421 22:50:55.047200       1 apiapproval_controller.go:189] Starting KubernetesAPIApprovalPolicyConformantConditionController
+I0421 22:50:55.047209       1 crd_finalizer.go:269] Starting CRDFinalizer
+I0421 22:50:55.048069       1 gc_controller.go:78] Starting apiserver lease garbage collector
+I0421 22:50:55.094088       1 crdregistration_controller.go:114] Starting crd-autoregister controller
+I0421 22:50:55.094108       1 shared_informer.go:313] Waiting for caches to sync for crd-autoregister
+I0421 22:50:55.189973       1 shared_informer.go:320] Caches are synced for node_authorizer
+I0421 22:50:55.191290       1 apf_controller.go:382] Running API Priority and Fairness config worker
+I0421 22:50:55.191559       1 apf_controller.go:385] Running API Priority and Fairness periodic rebalancing process
+I0421 22:50:55.194806       1 shared_informer.go:320] Caches are synced for crd-autoregister
+I0421 22:50:55.198897       1 cache.go:39] Caches are synced for LocalAvailability controller
+I0421 22:50:55.202529       1 aggregator.go:171] initial CRD sync complete...
+I0421 22:50:55.202551       1 autoregister_controller.go:144] Starting autoregister controller
+I0421 22:50:55.202559       1 cache.go:32] Waiting for caches to sync for autoregister controller
+I0421 22:50:55.202572       1 cache.go:39] Caches are synced for autoregister controller
+I0421 22:50:55.243372       1 cache.go:39] Caches are synced for RemoteAvailability controller
+I0421 22:50:55.243526       1 shared_informer.go:320] Caches are synced for *generic.policySource[*k8s.io/api/admissionregistration/v1.ValidatingAdmissionPolicy,*k8s.io/api/admissionregistration/v1.ValidatingAdmissionPolicyBinding,k8s.io/apiserver/pkg/admission/plugin/policy/validating.Validator]
+I0421 22:50:55.243535       1 policy_source.go:240] refreshing policies
+I0421 22:50:55.464311       1 cache.go:39] Caches are synced for APIServiceRegistrationController controller
+I0421 22:50:55.470497       1 shared_informer.go:320] Caches are synced for cluster_authentication_trust_controller
+I0421 22:50:55.470551       1 shared_informer.go:320] Caches are synced for configmaps
+I0421 22:50:55.471460       1 handler_discovery.go:451] Starting ResourceDiscoveryManager
+I0421 22:50:55.472731       1 controller.go:615] quota admission added evaluator for: leases.coordination.k8s.io
+I0421 22:50:55.551465       1 controller.go:615] quota admission added evaluator for: serviceaccounts
+E0421 22:50:55.816356       1 controller.go:97] Error removing old endpoints from kubernetes service: no API server IP addresses were listed in storage, refusing to erase all endpoints for the kubernetes Service
+I0421 22:50:55.826681       1 storage_scheduling.go:111] all system priority classes are created successfully or already exist.
+I0421 22:51:00.211186       1 controller.go:615] quota admission added evaluator for: endpointslices.discovery.k8s.io
+I0421 22:51:00.381068       1 controller.go:615] quota admission added evaluator for: daemonsets.apps
+I0421 22:51:00.393106       1 controller.go:615] quota admission added evaluator for: replicasets.apps
+I0421 22:51:00.498593       1 controller.go:615] quota admission added evaluator for: endpoints
+I0421 22:51:00.577254       1 controller.go:615] quota admission added evaluator for: deployments.apps
+E0421 22:51:05.828709       1 controller.go:195] "Failed to update lease" err="Operation cannot be fulfilled on leases.coordination.k8s.io \"apiserver-eqt674mfxb4j56mrjjkoe7b7ii\": StorageError: invalid object, Code: 4, Key: /registry/leases/kube-system/apiserver-eqt674mfxb4j56mrjjkoe7b7ii, ResourceVersion: 0, AdditionalErrorMsg: Precondition failed: UID in precondition: f383b2f8-3ae3-4ee1-80f0-1eb6e1e224ab, UID in object meta: "
+I0421 22:52:09.402799       1 controller.go:615] quota admission added evaluator for: ingresses.networking.k8s.io
+E0421 23:12:01.536355       1 watch.go:278] "Unhandled Error" err="http2: stream closed" logger="UnhandledError"
+I0421 23:43:36.033754       1 controller.go:615] quota admission added evaluator for: cronjobs.batch
+
+
+==> kube-controller-manager [9ac9193d3ce3] <==
+I0421 23:47:03.146216       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="10.176753ms"
+I0421 23:47:03.146486       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.983µs"
+I0421 23:47:03.160577       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="168.986µs"
+I0421 23:47:03.362401       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="19.69039ms"
+I0421 23:47:03.390667       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="28.018671ms"
+I0421 23:47:03.391458       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="159.447µs"
+I0421 23:47:03.409854       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="38.825µs"
+I0421 23:47:06.172616       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="41.174µs"
+I0421 23:47:08.196864       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="41.196µs"
+I0421 23:47:09.375095       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.555µs"
+I0421 23:47:10.344823       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="44.118µs"
+I0421 23:47:10.374555       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="39.114µs"
+I0421 23:47:11.435265       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="43.731µs"
+I0421 23:47:19.262345       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="7.355µs"
+I0421 23:47:19.421211       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="5.914µs"
+I0421 23:47:19.592408       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="6.967µs"
+I0421 23:47:28.739713       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="43.298662ms"
+I0421 23:47:28.800250       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="60.497635ms"
+I0421 23:47:28.825107       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="24.817851ms"
+I0421 23:47:28.825462       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="141.112µs"
+I0421 23:47:28.914600       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="25.73125ms"
+I0421 23:47:28.944388       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="29.126005ms"
+I0421 23:47:28.945410       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="85.225µs"
+I0421 23:47:28.987898       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="41.057µs"
+I0421 23:47:29.207121       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="104.575184ms"
+I0421 23:47:29.230936       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="23.14389ms"
+I0421 23:47:29.231023       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="46.797µs"
+I0421 23:47:31.895146       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="51.08µs"
+I0421 23:47:31.920153       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="44.967µs"
+I0421 23:47:32.923032       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="42.087µs"
+I0421 23:47:35.144526       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="14.395619ms"
+I0421 23:47:35.148169       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="51.89µs"
+I0421 23:47:36.183213       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.181µs"
+I0421 23:47:37.235246       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="48.894µs"
+I0421 23:47:37.259309       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="42.872µs"
+I0421 23:47:38.274848       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="40.312µs"
+I0421 23:47:52.537100       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="51.338µs"
+I0421 23:47:53.604055       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="44.647µs"
+I0421 23:47:54.651662       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="69.538µs"
+I0421 23:48:03.953840       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.438µs"
+I0421 23:48:21.117989       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="37.352µs"
+I0421 23:48:22.692018       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0421 23:48:23.192450       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="47.558µs"
+I0421 23:48:32.973212       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="43.806µs"
+I0421 23:48:33.943348       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="68.104µs"
+I0421 23:49:11.038909       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="79.326µs"
+I0421 23:49:14.102367       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="167.678µs"
+I0421 23:49:24.949801       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="74.453µs"
+I0421 23:49:25.944854       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="35.403µs"
+I0421 23:50:31.381669       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-665d8bcf4f" duration="45.308µs"
+I0421 23:50:35.325664       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-665d8bcf4f" duration="40.619µs"
+I0421 23:50:35.463108       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="35.58µs"
+I0421 23:50:36.510870       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="47.024µs"
+I0421 23:50:43.644840       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="40.818µs"
+I0421 23:50:50.752283       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-7d8c946689" duration="37.532µs"
+I0421 23:50:53.840096       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-7d8c946689" duration="92.005µs"
+I0421 23:50:56.982559       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="72.606µs"
+I0421 23:50:57.628142       1 cleaner.go:175] "Cleaning CSR as it is more than approvedExpiration duration old and approved." logger="certificatesigningrequest-cleaner-controller" csr="csr-xcpp2" approvedExpiration="1h0m0s"
+I0421 23:51:16.260317       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-76b8df7d6c" duration="37.301µs"
+I0421 23:51:20.620145       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-76b8df7d6c" duration="37.423µs"
+
+
+==> kube-controller-manager [d18c3b438bee] <==
+I0422 14:09:27.334364       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-76b8df7d6c" duration="9.082µs"
+I0422 14:09:33.964931       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-84f4b79777" duration="15.523µs"
+I0422 14:10:17.790041       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0422 14:15:23.599477       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0422 14:20:29.347365       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0422 14:25:35.113400       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0422 14:27:46.456187       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="133.143958ms"
+I0422 14:27:46.481909       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="25.67974ms"
+I0422 14:27:46.483684       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="42.636µs"
+I0422 14:27:46.516924       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="201.231µs"
+I0422 14:27:46.589252       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="38.925µs"
+I0422 14:27:49.977212       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="18.294708ms"
+I0422 14:27:49.977435       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="188.527µs"
+I0422 14:28:16.871345       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="41.857µs"
+I0422 14:28:17.410818       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="43.875µs"
+I0422 14:28:17.420411       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-reservation-service-68f855f774" duration="37.144µs"
+I0422 14:28:17.616309       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="58.590889ms"
+I0422 14:28:17.644436       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="28.089194ms"
+I0422 14:28:17.644539       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="54.485µs"
+I0422 14:28:17.661512       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="28.549µs"
+I0422 14:28:20.461559       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="14.475017ms"
+I0422 14:28:20.461893       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="304.358µs"
+I0422 14:28:47.993267       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="59.145µs"
+I0422 14:28:49.011153       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="39.683µs"
+I0422 14:28:49.026151       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="36.987µs"
+I0422 14:28:49.035330       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-salle-service-569487688b" duration="63.011µs"
+I0422 14:28:49.237547       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="71.232033ms"
+I0422 14:28:49.250105       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="12.070574ms"
+I0422 14:28:49.250472       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="46.957µs"
+I0422 14:28:49.259767       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="44.234µs"
+I0422 14:28:59.213023       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="36.612µs"
+I0422 14:29:01.270746       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="47.014µs"
+I0422 14:29:02.280140       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="40.202µs"
+I0422 14:29:17.552493       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="79.003µs"
+I0422 14:29:18.588677       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="40.894µs"
+I0422 14:29:19.621417       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.631µs"
+I0422 14:29:20.656885       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="52.984µs"
+I0422 14:29:20.662583       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="70.235µs"
+I0422 14:29:49.126021       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="41.271µs"
+I0422 14:30:02.666490       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="35.809µs"
+I0422 14:30:34.729722       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="41.055µs"
+I0422 14:30:41.247698       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0422 14:30:48.661602       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.823µs"
+I0422 14:32:06.093100       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="916.654µs"
+I0422 14:32:16.661925       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="35.038µs"
+I0422 14:34:47.972253       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.122µs"
+I0422 14:35:00.664084       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="39.626µs"
+I0422 14:35:49.040391       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0422 14:37:01.936746       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-577b5ffc4" duration="48.971384ms"
+I0422 14:37:01.936862       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-577b5ffc4" duration="42.022µs"
+I0422 14:37:02.174044       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-76b8df7d6c" duration="11.730869ms"
+I0422 14:37:02.174145       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/salle-service-76b8df7d6c" duration="70.985µs"
+I0422 14:37:02.482149       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-84f4b79777" duration="20.440182ms"
+I0422 14:37:02.483347       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/reservation-service-84f4b79777" duration="96.234µs"
+I0422 14:39:57.280258       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.439µs"
+I0422 14:40:12.660774       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.286µs"
+I0422 14:40:55.802016       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+I0422 14:45:00.455216       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="38.306µs"
+I0422 14:45:01.521931       1 replica_set.go:679] "Finished syncing" logger="replicaset-controller" kind="ReplicaSet" key="default/user-service-user-service-6bbd7754" duration="42.575µs"
+I0422 14:46:02.458793       1 range_allocator.go:247] "Successfully synced" logger="node-ipam-controller" key="minikube"
+
+
+==> kube-proxy [ae6e5f30f4ec] <==
+I0421 22:51:01.652750       1 server_linux.go:66] "Using iptables proxy"
+I0421 22:51:01.914505       1 server.go:698] "Successfully retrieved node IP(s)" IPs=["192.168.49.2"]
+E0421 22:51:01.914586       1 server.go:234] "Kube-proxy configuration may be incomplete or incorrect" err="nodePortAddresses is unset; NodePort connections will be accepted on all local IPs. Consider using `--nodeport-addresses primary`"
+I0421 22:51:02.006367       1 server.go:243] "kube-proxy running in dual-stack mode" primary ipFamily="IPv4"
+I0421 22:51:02.006555       1 server_linux.go:170] "Using iptables Proxier"
+I0421 22:51:02.009215       1 proxier.go:255] "Setting route_localnet=1 to allow node-ports on localhost; to change this either disable iptables.localhostNodePorts (--iptables-localhost-nodeports) or set nodePortAddresses (--nodeport-addresses) to filter loopback addresses" ipFamily="IPv4"
+I0421 22:51:02.078766       1 server.go:497] "Version info" version="v1.32.0"
+I0421 22:51:02.078819       1 server.go:499] "Golang settings" GOGC="" GOMAXPROCS="" GOTRACEBACK=""
+I0421 22:51:02.126965       1 config.go:329] "Starting node config controller"
+I0421 22:51:02.127035       1 shared_informer.go:313] Waiting for caches to sync for node config
+I0421 22:51:02.134234       1 config.go:199] "Starting service config controller"
+I0421 22:51:02.134299       1 shared_informer.go:313] Waiting for caches to sync for service config
+I0421 22:51:02.134348       1 config.go:105] "Starting endpoint slice config controller"
+I0421 22:51:02.134353       1 shared_informer.go:313] Waiting for caches to sync for endpoint slice config
+I0421 22:51:02.228427       1 shared_informer.go:320] Caches are synced for node config
+I0421 22:51:02.234874       1 shared_informer.go:320] Caches are synced for endpoint slice config
+I0421 22:51:02.238512       1 shared_informer.go:320] Caches are synced for service config
+
+
+==> kube-proxy [d754c42e875e] <==
+I0422 10:18:52.678237       1 server_linux.go:66] "Using iptables proxy"
+I0422 10:18:53.656883       1 server.go:698] "Successfully retrieved node IP(s)" IPs=["192.168.49.2"]
+E0422 10:18:53.663521       1 server.go:234] "Kube-proxy configuration may be incomplete or incorrect" err="nodePortAddresses is unset; NodePort connections will be accepted on all local IPs. Consider using `--nodeport-addresses primary`"
+I0422 10:18:54.282945       1 server.go:243] "kube-proxy running in dual-stack mode" primary ipFamily="IPv4"
+I0422 10:18:54.282997       1 server_linux.go:170] "Using iptables Proxier"
+I0422 10:18:54.315979       1 proxier.go:255] "Setting route_localnet=1 to allow node-ports on localhost; to change this either disable iptables.localhostNodePorts (--iptables-localhost-nodeports) or set nodePortAddresses (--nodeport-addresses) to filter loopback addresses" ipFamily="IPv4"
+I0422 10:18:54.402159       1 server.go:497] "Version info" version="v1.32.0"
+I0422 10:18:54.404123       1 server.go:499] "Golang settings" GOGC="" GOMAXPROCS="" GOTRACEBACK=""
+I0422 10:18:54.458948       1 config.go:329] "Starting node config controller"
+I0422 10:18:54.462299       1 shared_informer.go:313] Waiting for caches to sync for node config
+I0422 10:18:54.469129       1 config.go:199] "Starting service config controller"
+I0422 10:18:54.469158       1 shared_informer.go:313] Waiting for caches to sync for service config
+I0422 10:18:54.469203       1 config.go:105] "Starting endpoint slice config controller"
+I0422 10:18:54.469215       1 shared_informer.go:313] Waiting for caches to sync for endpoint slice config
+I0422 10:18:54.564009       1 shared_informer.go:320] Caches are synced for node config
+I0422 10:18:54.569507       1 shared_informer.go:320] Caches are synced for service config
+I0422 10:18:54.569627       1 shared_informer.go:320] Caches are synced for endpoint slice config
+
+
+==> kube-scheduler [06b1175022dd] <==
+I0421 22:50:50.334480       1 serving.go:386] Generated self-signed cert in-memory
+W0421 22:50:55.140051       1 requestheader_controller.go:204] Unable to get configmap/extension-apiserver-authentication in kube-system.  Usually fixed by 'kubectl create rolebinding -n kube-system ROLEBINDING_NAME --role=extension-apiserver-authentication-reader --serviceaccount=YOUR_NS:YOUR_SA'
+W0421 22:50:55.140242       1 authentication.go:397] Error looking up in-cluster authentication configuration: configmaps "extension-apiserver-authentication" is forbidden: User "system:kube-scheduler" cannot get resource "configmaps" in API group "" in the namespace "kube-system"
+W0421 22:50:55.140268       1 authentication.go:398] Continuing without authentication configuration. This may treat all requests as anonymous.
+W0421 22:50:55.140274       1 authentication.go:399] To require authentication configuration lookup to succeed, set --authentication-tolerate-lookup-failure=false
+I0421 22:50:55.728318       1 server.go:166] "Starting Kubernetes Scheduler" version="v1.32.0"
+I0421 22:50:55.728522       1 server.go:168] "Golang settings" GOGC="" GOMAXPROCS="" GOTRACEBACK=""
+I0421 22:50:55.842001       1 secure_serving.go:213] Serving securely on 127.0.0.1:10259
+I0421 22:50:55.842089       1 configmap_cafile_content.go:205] "Starting controller" name="client-ca::kube-system::extension-apiserver-authentication::client-ca-file"
+I0421 22:50:55.847457       1 shared_informer.go:313] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file
+I0421 22:50:55.849057       1 tlsconfig.go:243] "Starting DynamicServingCertificateController"
+I0421 22:50:55.948977       1 shared_informer.go:320] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file
+
+
+==> kube-scheduler [239e942196f7] <==
+I0422 10:18:42.852414       1 serving.go:386] Generated self-signed cert in-memory
+W0422 10:18:44.754031       1 requestheader_controller.go:204] Unable to get configmap/extension-apiserver-authentication in kube-system.  Usually fixed by 'kubectl create rolebinding -n kube-system ROLEBINDING_NAME --role=extension-apiserver-authentication-reader --serviceaccount=YOUR_NS:YOUR_SA'
+W0422 10:18:44.754614       1 authentication.go:397] Error looking up in-cluster authentication configuration: configmaps "extension-apiserver-authentication" is forbidden: User "system:kube-scheduler" cannot get resource "configmaps" in API group "" in the namespace "kube-system"
+W0422 10:18:44.754670       1 authentication.go:398] Continuing without authentication configuration. This may treat all requests as anonymous.
+W0422 10:18:44.754687       1 authentication.go:399] To require authentication configuration lookup to succeed, set --authentication-tolerate-lookup-failure=false
+I0422 10:18:44.843000       1 server.go:166] "Starting Kubernetes Scheduler" version="v1.32.0"
+I0422 10:18:44.843039       1 server.go:168] "Golang settings" GOGC="" GOMAXPROCS="" GOTRACEBACK=""
+I0422 10:18:44.862551       1 secure_serving.go:213] Serving securely on 127.0.0.1:10259
+I0422 10:18:44.868165       1 tlsconfig.go:243] "Starting DynamicServingCertificateController"
+I0422 10:18:44.868233       1 configmap_cafile_content.go:205] "Starting controller" name="client-ca::kube-system::extension-apiserver-authentication::client-ca-file"
+I0422 10:18:44.868256       1 shared_informer.go:313] Waiting for caches to sync for client-ca::kube-system::extension-apiserver-authentication::client-ca-file
+I0422 10:18:44.973299       1 shared_informer.go:320] Caches are synced for client-ca::kube-system::extension-apiserver-authentication::client-ca-file
+
+
+==> kubelet <==
+Apr 22 14:43:01 minikube kubelet[1435]: I0422 14:43:01.639940    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:43:01 minikube kubelet[1435]: E0422 14:43:01.640123    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:43:13 minikube kubelet[1435]: I0422 14:43:13.642344    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:43:13 minikube kubelet[1435]: E0422 14:43:13.642457    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:43:25 minikube kubelet[1435]: I0422 14:43:25.639845    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:43:25 minikube kubelet[1435]: E0422 14:43:25.639989    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:43:39 minikube kubelet[1435]: I0422 14:43:39.638985    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:43:39 minikube kubelet[1435]: E0422 14:43:39.639199    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:43:52 minikube kubelet[1435]: I0422 14:43:52.643308    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:43:52 minikube kubelet[1435]: E0422 14:43:52.646894    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:44:06 minikube kubelet[1435]: I0422 14:44:06.640429    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:44:06 minikube kubelet[1435]: E0422 14:44:06.640636    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:44:18 minikube kubelet[1435]: I0422 14:44:18.638955    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:44:18 minikube kubelet[1435]: E0422 14:44:18.639160    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:44:33 minikube kubelet[1435]: I0422 14:44:33.639655    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:44:33 minikube kubelet[1435]: E0422 14:44:33.639826    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:44:45 minikube kubelet[1435]: I0422 14:44:45.640148    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:44:45 minikube kubelet[1435]: E0422 14:44:45.641938    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:44:58 minikube kubelet[1435]: I0422 14:44:58.639072    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:45:00 minikube kubelet[1435]: I0422 14:45:00.433941    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:45:00 minikube kubelet[1435]: E0422 14:45:00.434082    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:45:01 minikube kubelet[1435]: I0422 14:45:01.486349    1435 scope.go:117] "RemoveContainer" containerID="2afa877aeb255393ed05fa24d5d3b73856f997c055594c49285edd20993039dd"
+Apr 22 14:45:01 minikube kubelet[1435]: I0422 14:45:01.487496    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:45:01 minikube kubelet[1435]: E0422 14:45:01.490886    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:45:16 minikube kubelet[1435]: I0422 14:45:16.640553    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:45:16 minikube kubelet[1435]: E0422 14:45:16.640865    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:45:27 minikube kubelet[1435]: I0422 14:45:27.642629    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:45:27 minikube kubelet[1435]: E0422 14:45:27.642772    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:45:41 minikube kubelet[1435]: I0422 14:45:41.640874    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:45:41 minikube kubelet[1435]: E0422 14:45:41.641216    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:45:54 minikube kubelet[1435]: I0422 14:45:54.640973    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:45:54 minikube kubelet[1435]: E0422 14:45:54.643493    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:46:05 minikube kubelet[1435]: I0422 14:46:05.644042    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:46:05 minikube kubelet[1435]: E0422 14:46:05.644207    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:46:20 minikube kubelet[1435]: I0422 14:46:20.640779    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:46:20 minikube kubelet[1435]: E0422 14:46:20.642382    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:46:33 minikube kubelet[1435]: I0422 14:46:33.640362    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:46:33 minikube kubelet[1435]: E0422 14:46:33.640611    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:46:44 minikube kubelet[1435]: I0422 14:46:44.640103    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:46:44 minikube kubelet[1435]: E0422 14:46:44.640277    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:46:59 minikube kubelet[1435]: I0422 14:46:59.639727    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:46:59 minikube kubelet[1435]: E0422 14:46:59.639856    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:47:14 minikube kubelet[1435]: I0422 14:47:14.642765    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:47:14 minikube kubelet[1435]: E0422 14:47:14.642922    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:47:26 minikube kubelet[1435]: I0422 14:47:26.639249    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:47:26 minikube kubelet[1435]: E0422 14:47:26.639387    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:47:37 minikube kubelet[1435]: I0422 14:47:37.641506    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:47:37 minikube kubelet[1435]: E0422 14:47:37.642026    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:47:52 minikube kubelet[1435]: I0422 14:47:52.641418    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:47:52 minikube kubelet[1435]: E0422 14:47:52.641817    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:48:04 minikube kubelet[1435]: I0422 14:48:04.639773    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:48:04 minikube kubelet[1435]: E0422 14:48:04.642558    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:48:17 minikube kubelet[1435]: I0422 14:48:17.638975    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:48:17 minikube kubelet[1435]: E0422 14:48:17.639143    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:48:28 minikube kubelet[1435]: I0422 14:48:28.643681    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:48:28 minikube kubelet[1435]: E0422 14:48:28.652751    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:48:43 minikube kubelet[1435]: I0422 14:48:43.641961    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:48:43 minikube kubelet[1435]: E0422 14:48:43.643055    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+Apr 22 14:48:58 minikube kubelet[1435]: I0422 14:48:58.640991    1435 scope.go:117] "RemoveContainer" containerID="e706afb91c8e360678066336efff65ec3ecd335fe4c2bec0b5e2c740676e215a"
+Apr 22 14:48:58 minikube kubelet[1435]: E0422 14:48:58.641255    1435 pod_workers.go:1301] "Error syncing pod, skipping" err="failed to \"StartContainer\" for \"user-service\" with CrashLoopBackOff: \"back-off 5m0s restarting failed container=user-service pod=user-service-user-service-6bbd7754-fpm4m_default(db7211df-c3dc-4007-9a64-29a19113d3b5)\"" pod="default/user-service-user-service-6bbd7754-fpm4m" podUID="db7211df-c3dc-4007-9a64-29a19113d3b5"
+
+
+==> storage-provisioner [dc9da4d30951] <==
+I0422 10:19:29.352250       1 storage_provisioner.go:116] Initializing the minikube storage provisioner...
+I0422 10:19:29.515886       1 storage_provisioner.go:141] Storage provisioner initialized, now starting service!
+I0422 10:19:29.518265       1 leaderelection.go:243] attempting to acquire leader lease kube-system/k8s.io-minikube-hostpath...
+I0422 10:19:47.575179       1 leaderelection.go:253] successfully acquired lease kube-system/k8s.io-minikube-hostpath
+I0422 10:19:47.575409       1 controller.go:835] Starting provisioner controller k8s.io/minikube-hostpath_minikube_0149dff6-fee3-4db2-b01f-99d9ab098e6d!
+I0422 10:19:47.576773       1 event.go:282] Event(v1.ObjectReference{Kind:"Endpoints", Namespace:"kube-system", Name:"k8s.io-minikube-hostpath", UID:"7b0a1c62-4faf-43b2-8134-e7d2909e7c77", APIVersion:"v1", ResourceVersion:"11058", FieldPath:""}): type: 'Normal' reason: 'LeaderElection' minikube_0149dff6-fee3-4db2-b01f-99d9ab098e6d became leader
+I0422 10:19:47.749296       1 controller.go:884] Started provisioner controller k8s.io/minikube-hostpath_minikube_0149dff6-fee3-4db2-b01f-99d9ab098e6d!
+
+
+==> storage-provisioner [e8e0261ebb23] <==
+I0422 10:18:51.475563       1 storage_provisioner.go:116] Initializing the minikube storage provisioner...
+F0422 10:19:12.542728       1 main.go:39] error getting server version: Get "https://10.96.0.1:443/version?timeout=32s": dial tcp 10.96.0.1:443: connect: connection refused
+

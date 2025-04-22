@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: salle-service
 spec:
-  replicas: 1
+  replicas: 0  # Réduction du nombre de réplicas à 0 pour ne pas recréer les pods
   selector:
     matchLabels:
       app: salle-service
@@ -14,14 +14,14 @@ spec:
     spec:
       containers:
         - name: salle-service
-          image: leith21/salle-service:latest  # Assurez-vous que l'image est correcte
+          image: leith21/salle-service:latest  # DockerHub image for the salle-service
           ports:
-            - containerPort: 5002
+            - containerPort: 5002  # Port exposed inside the container for Flask
           env:
             - name: DATABASE_URL
-              value: postgresql://admin:admin@postgres:5432/reservationsdb  # PostgreSQL service
+              value: postgresql://admin:admin@postgres:5432/reservationsdb  # Correct PostgreSQL service name
             - name: KAFKA_BOOTSTRAP_SERVERS
-              value: kafka:9092  # Kafka service
+              value: kafka:9092  # Correct Kafka service name
           # Health checks
           readinessProbe:
             httpGet:
@@ -48,5 +48,5 @@ spec:
     - protocol: TCP
       port: 5002
       targetPort: 5002
-  type: ClusterIP  # Change to LoadBalancer if you want to expose externally
+  type: LoadBalancer  # Change to LoadBalancer for external access
 

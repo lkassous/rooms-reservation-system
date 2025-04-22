@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
-from models import db, User
+from models import db, User  # Assurez-vous que `models.py` est correctement configuré pour chaque service
 from kafka import KafkaProducer
 import json, time, os
 import psycopg2
